@@ -8,10 +8,10 @@ Il progetto confronta l'efficacia di un approccio classico basato su Machine Lea
 
 La repository segue una rigorosa Separazione delle Responsabilità (SoC) ed è divisa in 4 macro-aree:
 
-### 1. `architettura_attacchi/`
+### 1. `Architettura_Attacchi/`
 Contiene la configurazione dell'ambiente di simulazione e difesa isolato tramite UFW (Default Deny Outgoing) per garantire la riproducibilità:
-*   **`ubuntu_server/`**: L'infrastruttura di monitoraggio orchestrata via Docker Compose (V2), comprensiva di Pi-hole, Zeek, Tshark e MongoDB. Contiene la pipeline Python di analisi: `log_streamer.py`, `dns_math.py`, `ingestor.py`, `analyzer.py` e `detector.py`.
-*   **`vm_kali/`**: L'ambiente dell'attaccante. Include lo script `scenario_launcher.py` per l'iniezione stocastica di payload malevoli (Tunneling, DGA, Imposter) miscelati a traffico benigno.
+*   **`Server-Ubuntu/`**: L'infrastruttura di monitoraggio orchestrata via Docker Compose (V2), comprensiva di Pi-hole, Zeek, Tshark e MongoDB. Contiene la pipeline Python di analisi: `log_streamer.py`, `dns_math.py`, `ingestor.py`, `analyzer.py` e `detector.py`.
+*   **`VM-Kali/`**: L'ambiente dell'attaccante. Include lo script `scenario_launcher.py` per l'iniezione stocastica di payload malevoli (Tunneling, DGA, Imposter) miscelati a traffico benigno.
 
 ### 2. `ML/` (Machine Learning)
 Contiene i Jupyter Notebook e i dataset anonimizzati utilizzati per l'addestramento dei modelli.
@@ -23,10 +23,10 @@ Contiene gli script Python per l'interazione via API REST con un'istanza locale 
 *   Mostra le strategie di **Prompt Engineering** adottate, tra cui il *Chain of Thought* (ragionamento sequenziale) e le definizioni chirurgiche per distinguere le classi e individuare attacchi complessi tramite Punycode.
 *   Include i risultati prestazionali e il confronto diretto con la baseline di ML.
 
-### 4. `exfiltration/`
+### 4. `Exfiltration/`
 Una sezione dedicata alla dimostrazione pratica dell'esfiltrazione dati (Data Exfiltration) sfruttando il DNS Tunneling]:
-*   **`vm_malware/`**: Script Python (lato Kali) che codifica file sensibili (es. `/etc/shadow`) in Base32, ne effettua il frammentamento (chunking) e introduce un ritardo (Jitter) per bypassare i controlli temporali.
-*   **`ubuntu_decoder/`**: Il decoder lato C2 che estrae il payload dai log di rete, gestisce il padding matematico della codifica Base32 e ricostruisce la stringa originale.
+*   **`VM-Kali/`**: Script Python (lato Kali) che codifica file sensibili (es. `/etc/shadow`) in Base32, ne effettua il frammentamento (chunking) e introduce un ritardo (Jitter) per bypassare i controlli temporali.
+*   **`Server-Ubuntu/`**: Il decoder lato C2 che estrae il payload dai log di rete, gestisce il padding matematico della codifica Base32 e ricostruisce la stringa originale.
 
 ## ⚙️ Requisiti e Setup
 *L'ambiente richiede Docker, Zeek e un'istanza locale di Ollama. (Istruzioni di setup dettagliate da inserire qui).*
