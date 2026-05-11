@@ -1,4 +1,4 @@
-# 🏗️ Architettura e Attacchi: Infrastruttura IDS e Simulazione
+# 🐧Server-Ubuntu: Difensore e Monitoring
 
 Questa directory contiene il cuore dell'infrastruttura di rete, la configurazione dei container Docker per il monitoraggio e l'intera pipeline software sviluppata in Python per analizzare il traffico DNS in tempo reale. 
 
