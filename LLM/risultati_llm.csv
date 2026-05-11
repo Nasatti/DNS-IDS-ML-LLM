@@ -1,0 +1,1031 @@
+len,entropy,digit_p,alpha_p,vowel_p,special_p,sub_count,max_cons,query,label,attack_tag,qtype,llm_prediction,llm_reasoning
+35,4.14,0.152,0.848,0.212,0.0,2,4,x3d8aozhmmo4tpxc5qml9k.attacco.test,1,2,A,2,"Il record è di tipo A, ma la parte sinistra del dominio è una stringa casuale di 23 caratteri con entropia 4.14, tipica di domini generati da algoritmo DGA; la lunghezza non è estrema né è usato TXT, quindi non è tunneling.  
+
+CLASSE: 2"
+58,4.47,0.179,0.8210000000000001,0.232,0.0,2,4,8avhoz0qwpepyxe4vuovzdp1s1pfdpogu6v8xpeb81xg9.attacco.test,1,2,A,2,"Il record è di tipo A, tipico di traffico legittimo, ma il sottodominio è molto lungo (58 caratteri) e presenta alta entropia (4,47) con sequenze apparentemente casuali, caratteristica di domini generati da DGA.  
+CLASSE: 2"
+27,3.927,0.5,0.455,0.182,0.045,5,3,174.203.59.186.in-addr.arpa,0,0,A,0,"Il dominio è una normale reverse‑lookup (IP reverso) con qtype A, lunghezza media e entropia moderata tipica di stringhe leggibili, senza caratteristiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+52,4.505,0.12,0.88,0.22,0.0,2,11,yumhenrvf7avwqnpvzmlzb9mc6ut4eu6huz8lqs.attacco.test,1,2,AAAA,1,"La presenza di un record AAAA con un sottodominio di 52 caratteri, alta entropia (4.5) e sequenza di consonanti di 11 indica un payload codificato piuttosto che un normale dominio. L’estrema lunghezza e casualità tipica dei dati incapsulati suggeriscono tunneling / exfiltration.  
+CLASSE: 1"
+19,3.537,0.0,1.0,0.294,0.0,2,2,musicfactory.com.mx,0,0,AAAA,0,"Il record AAAA, la lunghezza moderata (19) e l’entropia bassa (3.5) indicano un dominio leggibile e strutturato normalmente; i pochi sotto‑domini e l’assenza di caratteri speciali o cifre confermano la tipicità.  
+
+CLASSE: 0"
+27,3.556,0.5,0.455,0.182,0.045,5,3,170.104.198.91.in-addr.arpa,0,0,A,0,"Tipo A per query di reverse lookup “in‑addr.arpa”, lunghezza e entropia tipiche di un dominio IP legittimo, senza anomalie strutturali.  
+CLASSE: 0"
+21,3.654,0.1,0.75,0.25,0.15,1,3,xn--3schoois-ex6f.com,1,3,A,3,"Il record è di tipo A (normale) ma il dominio è in punycode (xn--), tipico di omografi IDN; lunghezza 21 e entropia 3.65 non indicano tunneling né DGA, ma la codifica punycode suggerisce un possibile imposter/typosquatting.  
+CLASSE: 3"
+28,3.58,0.522,0.435,0.17400000000000002,0.043000000000000003,5,3,115.177.254.201.in-addr.arpa,0,0,A,0,"Il dominio è una tipica zona reverse‑DNS (IP invertito + “in‑addr.arpa”), con molti numeri, entropia bassa e struttura leggibile; il record A è anomalo ma non indica malevolenza.  
+
+CLASSE: 0"
+22,3.352,0.2,0.8,0.30000000000000004,0.0,2,2,t8i41fc4i.attacco.test,1,2,A,0,"Tipo A (normale), lunghezza moderata e entropia 3.35 non indicano payload estremi; il dominio contiene parole leggibili (“attacco”, “test”).  
+CLASSE: 0"
+51,4.304,0.0,1.0,0.188,0.0,3,9,hyztoqcrdzqoxuktfdxzwxxakgvgvh.sandbox.alphasoc.xyz,1,1,TXT,1,"Tipo TXT con payload estremamente lungo (51 caratteri) e alta entropia (4.3), tipico di trasporto di dati codificati; la sequenza di 9 consonanti consecutive conferma la natura non leggibile.  
+Queste caratteristiche corrispondono al pattern di tunneling / data‑exfiltration.  
+
+CLASSE: 1"
+20,3.746,0.0,1.0,0.353,0.0,3,3,www.solurapid.com.ve,0,0,A,0,"Il record è di tipo A, la lunghezza è moderata (20) e l'entropia (3.746) è tipica di domini leggibili, senza pattern di tunneling o DGA.  
+CLASSE: 0"
+20,3.784,0.053,0.789,0.105,0.158,1,3,xn--cthelp-bkb7l.com,1,3,A,3,"Il dominio è in punycode (xn--) tipico di IDN usati per typosquatting; la lunghezza moderata (20) e l’entropia 3,78 non indicano tunneling né DGA, e il record A è comune per siti legittimi.  
+Pertanto rientra nella classe 3.  
+CLASSE: 3"
+12,3.085,0.0,1.0,0.364,0.0,1,3,alphasoc.com,0,0,AAAA,0,"Il record AA… (A/AAAA) è tipico di host legittimi; la lunghezza di 12 caratteri e l’entropia bassa (3.08) indicano un nome leggibile.  
+Il dominio contiene parole reali (“alpha”, “soc”), nessun numero o carattere speciale, quindi non presenta le anomalie tipiche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+20,3.646,0.0,1.0,0.333,0.0,2,4,www.monstropedia.org,0,0,AAAA,0,"Il record è di tipo AA/A (indirizzo), la lunghezza è moderata (20) con entropia bassa (3.6) e il nome è leggibile (parola reale, pochi sottodomini).  
+CLASSE: 0"
+51,4.515,0.0,1.0,0.25,0.0,3,6,thzusvqzmyokhcrweiilatqevjtzhg.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri, con entropia elevata (4.5) e un dominio apparentemente casuale, è tipico di tecniche di tunneling / data exfiltration.  
+CLASSE: 1"
+15,3.323,0.0,1.0,0.231,0.0,2,3,www.blogdir.com,0,0,A,0,"Il record A, lunghezza moderata (15) e bassa entropia (3.323) indicano un nome leggibile con parole comuni; i sottodomini sono tipici (www).  
+CLASSE: 0"
+48,4.3870000000000005,0.17400000000000002,0.8260000000000001,0.23900000000000002,0.0,2,4,3tedjhk1ov5vvyr0h7cz1ke7fcopexiucd1.attacco.test,1,2,A,2,"La query è di tipo A (tipico dei domini legittimi o DGA) e la label iniziale è lunga (48 caratteri) con entropia elevata (4,387), tipica di stringhe generate casualmente più che di payload codificati. La struttura a due livelli di sottodomini e l’assenza di record TXT indicano un probabile dominio DGA piuttosto che tunneling o typo‑squatting.  
+CLASSE: 2"
+14,3.325,0.0,1.0,0.462,0.0,1,2,tkokopedia.com,1,3,A,3,"Il record è di tipo A, con lunghezza moderata (14) e bassa entropia (3.3), tipico di domini legittimi ma con una leggera variazione rispetto a “tokopedia.com”, indicante un possibile typo‑squatting.  
+CLASSE: 3"
+72,4.739,0.2,0.8,0.2,0.0,2,6,ereqdvat0usyur1yizgaqgh8y305w201nur4wqqdm8nixvbeqvhcmr43vk4.attacco.test,1,2,AAAA,2,"Il record AAAA è solitamente legittimo, ma la lunghezza estrema (72) e l’alta entropia (4.739) suggeriscono un nome randomizzato tipico di DGA; i pochi sottodomini confermano il pattern.  
+CLASSE: 2"
+17,3.617,0.0,1.0,0.25,0.0,1,4,thcdallybeast.com,1,3,A,0,"Il record di tipo **A**, la lunghezza moderata (17) e l’entropia relativamente bassa (3.62) indicano un dominio leggibile e non generato casualmente, senza pattern tipici di tunneling o DGA.  
+Non presenta typo di brand né caratteri speciali, quindi appare legittimo.
+
+CLASSE: 0"
+26,3.686,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,99.36.170.201.in-addr.arpa,0,0,AAAA,0,"Il qtype AAAA indica un record legittimo di tipo AAAA, la lunghezza (26) e l’entropia (3.686) sono tipiche per un nome di reverse DNS con molte cifre; non ci sono segnali di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+21,3.594,0.0,1.0,0.211,0.0,2,4,www.ruthblackwell.com,0,0,A,0,"Il record è di tipo A, la lunghezza è media e l’entropia è bassa, tipica di parole leggibili (ruthblackwell) con pochi sottodomini (www). Non presenta pattern di tunneling né di DGA.  
+CLASSE: 0"
+20,3.584,0.0,0.9470000000000001,0.368,0.053,1,3,a-mericanexpress.com,1,3,A,3,"Il record è di tipo A e la lunghezza (20) con entropia (3.58) è tipica di domini leggibili, ma il nome riprende il brand “americanexpress” con una leggera modifica (“a‑”), tipica di typosquatting.  
+
+CLASSE: 3"
+55,4.499,0.226,0.774,0.264,0.0,2,3,1aosxu97l1zfb2o8cys49swiobj73ibivwv2yxo6lo.attacco.test,1,2,AAAA,2,"La lunghezza estrema (55) e l’alta entropia (4.5) indicano una stringa pseudo‑casuale tipica dei domini DGA, mentre il record AAAA è comune per host legittimi e non è tipico dei canali di tunneling TXT.  
+Quindi il profilo corrisponde a un possibile dominio generato da malware.  
+
+CLASSE: 2"
+26,3.763,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,223.189.75.70.in-addr.arpa,0,0,AAAA,0,"Il dominio è un tipico record di reverse DNS (in‑addr.arpa) con qtype AAAA, lunghezza moderata e entropia media, caratteristiche comuni dei domini legittimi. Nessuna anomalia di lunghezza estrema o alta entropia indica tunneling o DGA.  
+CLASSE: 0"
+17,3.69,0.0,0.812,0.188,0.188,1,3,xn--fedly-hya.com,1,3,A,3,"Il dominio è un IDN in punycode (xn--...), tipico di omograph attacks; il record A è legittimo ma la presenza di caratteri speciali e la lunghezza moderata con entropia non eccessiva indicano un possibile impersonamento di brand.  
+
+CLASSE: 3"
+51,4.282,0.0,1.0,0.229,0.0,3,9,nmotvlyvoexsykcpbwniwnpicjtsov.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la label di 51 caratteri mostra alta entropia (4.28) e una lunga sequenza di consonanti, tipico di payload codificati trasportati via DNS. La lunghezza supera quella tipica dei DGA e indica un possibile tunnel di esfiltrazione dati.  
+CLASSE: 1"
+62,4.718,0.2,0.8,0.133,0.0,2,9,b75cwzaw67o65nwvxtvsld1zj7mrmxdcihlpqipnl3s0g0wh3.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di traffico legittimo, ma la sottostringa di 62 caratteri è quasi interamente alfanumerica, con alta entropia (4.718) e nessun pattern linguistico, tipico di DGA piuttosto che di tunneling o typosquatting. Con pochi sottodomini e nessun carattere speciale, il profilo corrisponde alla classe 2.  
+
+CLASSE: 2"
+24,3.768,0.227,0.773,0.273,0.0,2,2,75j9yuhti00.attacco.test,1,2,A,2,"Il record A è tipico di traffico legittimo, ma il primo label “75j9yuhti00” è una stringa apparentemente casuale (12 caratteri, entropia 3.768, 22 % cifre) tipica di DGA; la lunghezza è media e il numero di sottodomini è ridotto.  
+Non è estremamente lungo né usa TXT, quindi escludiamo tunneling e altri tipi.  
+
+CLASSE: 2"
+51,4.209,0.0,1.0,0.312,0.0,3,4,hzlopauqurolinszesobklxirkpdec.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT con stringa di 51 caratteri ad alta entropia (4.209) e un’etichetta apparentemente casuale indica tipico comportamento DGA più che un tunnel di dati (la lunghezza non è “estrema”).  
+
+CLASSE: 2"
+29,3.969,0.179,0.714,0.25,0.107,1,2,xn--manoramaolne-t3b0445h.com,1,3,A,3,"Il dominio è in Punycode (xn--...), tipico di imposter/typosquatting; la lunghezza e l’entropia non sono eccezionali e il record è di tipo A, ma la presenza di caratteri IDN indica un tentativo di imitare un brand.  
+CLASSE: 3"
+51,4.398,0.0,1.0,0.20800000000000002,0.0,3,7,xfpnturrhvityxqberztpiadwqhfvt.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la parte sinistra del dominio è una stringa estremamente lunga (51 caratteri) con alta entropia (≈4.4), tipica dei canali di tunneling/exfiltration. La combinazione di lunghezza anomala e tipo TXT supera i pattern dei DGA più brevi, indicando probabilmente un payload codificato.
+
+CLASSE: 1"
+56,4.618,0.222,0.778,0.148,0.0,2,10,jg5o89v9kxdizf34k5jccswqbszt7vewy9kq3wi7my8.attacco.test,1,2,A,2,"Il record A è legittimo, ma il primo label è una stringa molto lunga e ad alta entropia (4.6), con poche vocali e molte consonanti, tipica di domini DGA; non è TXT né estremamente lungo per tunneling.  
+CLASSE: 2"
+28,3.726,0.0,1.0,0.417,0.0,4,3,api.open.wisdom.alphasoc.net,0,0,A,0,"Il record è di tipo A, la lunghezza è moderata (28) e l’entropia (3.73) è tipica di domini leggibili con parole reali; i sottodomini sono pochi e composti da termini comprensibili.  
+Non emergono pattern di tunneling, DGA o typosquatting.
+
+CLASSE: 0"
+36,4.427,0.147,0.853,0.23500000000000001,0.0,2,7,upvehud58r6rypbxqv9vin0.attacco.test,1,2,AAAA,2,"Il record AAAA è comune, ma la lunghezza di 36 caratteri, l’entropia elevata (4.43) e il sottodominio apparentemente casuale suggeriscono un dominio generato da algoritmo DGA.  
+CLASSE: 2"
+51,4.255,0.0,1.0,0.312,0.0,3,5,jopxvlliozoaeagbarznuhtwjdaxtp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una sotto‑stringa di 51 caratteri con entropia 4.255, molto più lunga della media per DGA e tipica dei payload codificati trasportati via DNS; la combinazione di tipo TXT, lunghezza estrema e alta entropia indica tunneling / data exfiltration.  
+CLASSE: 1"
+51,4.324,0.0,1.0,0.167,0.0,3,11,rhcfnfxpmylojrrrokfmiytstzvnzt.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia e predominanza di consonanti, tipica dei payload codificati usati per tunneling/exfiltration.  
+Non presenta parole leggibili né pattern di DGA, né somiglianze a brand noti.  
+
+CLASSE: 1"
+13,3.027,0.0,1.0,0.455,0.0,2,2,googlen.co.id,1,3,A,3,"Il dominio ha una lunghezza moderata e bassa entropia, tipica di parole leggibili, ma imita il brand “google” con una leggera variazione (“googlen”). Il record A è normale, ma il naming suggerisce un tentativo di impersonificazione.  
+CLASSE: 3"
+51,4.18,0.0,1.0,0.229,0.0,3,9,xajypjvnayiywijhyvyxcwqeolnckc.sandbox.alphasoc.xyz,1,1,TXT,2,"Il dominio utilizza un record TXT con una prima etichetta molto lunga (31 caratteri) e ad alta entropia (4.18), tipica di stringhe generate casualmente da DGA piuttosto che di normali parole. La mancanza di vocali, l’alto numero di consonanti consecutive e la struttura a pochi sottodomini indicano un possibile algoritmo di generazione di domini maligni.  
+CLASSE: 2"
+51,4.525,0.0,1.0,0.20800000000000002,0.0,3,12,iirhpvzcfwtkmyafhuvplqwnlxndju.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.525) e poche vocali, tipica di dati codificati inseriti in un sottodominio esteso per tunneling/exfiltration.  
+
+CLASSE: 1"
+14,3.5220000000000002,0.0,1.0,0.308,0.0,1,4,walgrweens.com,1,3,A,0,"Il record è di tipo A, con lunghezza media (14) e entropia moderata (3.5), caratteristiche tipiche di domini legittimi e non di payload lunghi o stringhe casuali. Non presenta cifre, caratteri speciali né pattern tipici di DGA o typo‑squatting.  
+CLASSE: 0"
+33,3.8970000000000002,0.069,0.931,0.241,0.0,4,5,shapirofussell.com.s9b1.psmtp.com,0,0,AAAA,0,"Il record AAAA indica un normale lookup di tipo indirizzo; la lunghezza di 33 caratteri e un’entropia di 3,9 sono tipiche di domini leggibili (es. “shapirofussell.com”) e non mostrano segni di random‑string o payload.  
+
+CLASSE: 0"
+26,3.456,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,73.88.189.189.in-addr.arpa,0,0,AAAA,0,"Il tipo AA AAA indica un record di tipo AAAA (normale per reverse‑lookup), la lunghezza è moderata e l’entropia (3.456) non è particolarmente elevata, tipica di domini legittimi. Nessuna anomalia strutturale o pattern di esfiltrazione/malware è evidente.  
+CLASSE: 0"
+25,3.863,0.0,1.0,0.34800000000000003,0.0,2,3,mail.towerproductsinc.com,0,0,A,0,"Il tipo A e la lunghezza moderata (25) con entropia 3.86 indicano un nome leggibile (mail.towerproductsinc.com) senza pattern di esfiltrazione o randomizzazione. I pochi sottodomini e l’assenza di cifre o caratteri speciali confermano un uso legittimo.  
+CLASSE: 0"
+11,2.914,0.0,1.0,0.4,0.0,1,2,gameover.vg,0,0,AAAA,0,"L'uso di un record AAAA per un dominio breve (11 caratteri) con bassa entropia (2.9) e una parola leggibile (“gameover”) indica traffico legittimo. Nessuna anomalia di lunghezza estrema o caratteri casuali.  
+CLASSE: 0"
+27,3.856,0.16,0.72,0.28,0.12,2,2,xn--ndianril-5za789a.gov.in,1,3,A,3,"Il dominio è in punycode (xn--) con lunghezza media (27) e entropia moderata (3.856), tipico di un nome artificiale che nasconde una parola legittima; il record A è comune, ma la struttura suggerisce un tentativo di imitare un brand (es. “indian”).  
+Pertanto rientra nella categoria di impersonificazione/typosquatting.  
+CLASSE: 3"
+51,4.392,0.0,1.0,0.271,0.0,3,6,uekikwdeqfhrcpubcusnqororksvby.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.39), tipica di payload codificati usati per tunneling o data exfiltration.  
+CLASSE: 1"
+51,4.327,0.0,1.0,0.271,0.0,3,4,ninhafyculfrvompnzooqydrakttom.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e un’entropia relativamente alta (4.327), tipici di payload codificati usati per tunneling. La struttura casuale del nome host e la bassa percentuale di vocali rafforzano l’indicazione di trasferimento di dati nascosto.  
+CLASSE: 1"
+13,3.085,0.0,1.0,0.417,0.0,1,2,alancohen.com,0,0,AAAA,0,"Il record AAAA indica un normale host IPv6, la lunghezza di 13 caratteri e l’entropia bassa (3.08) sono tipiche di domini leggibili (parola reale). Nessuna anomalia di sottodomini, cifre o caratteri speciali suggerisce traffico legittimo.  
+CLASSE: 0"
+51,4.248,0.0,1.0,0.271,0.0,3,13,oofdlntioxmcgoovblgplhnnkyffuu.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT e la stringa estremamente lunga (51 caratteri) con alta sequenza di consonanti indicano l’uso tipico dei canali di tunneling per trasportare payload; l’entropia moderata (4.25) è coerente con dati codificati più che con un nome di dominio casuale puro.  
+
+CLASSE: 1"
+27,3.574,0.5,0.455,0.182,0.045,5,3,55.157.109.200.in-addr.arpa,0,0,AAAA,0,"Il qtype AAAA, la lunghezza moderata (27) e l’entropia relativamente bassa (3.57) indicano un dominio di reverse‑lookup standard, senza anomalie tipiche di tunneling o DGA.  
+CLASSE: 0"
+24,3.855,0.182,0.682,0.136,0.136,2,3,xn--hrriyt-04a50m.com.tr,1,3,A,3,"Il dominio è in punycode (xn--...), tipico dei domini IDN usati per impersonare brand; la lunghezza è moderata, l’entropia non eccessiva e il record è di tipo A, non tipico di tunneling o DGA. Queste caratteristiche puntano a un possibile caso di typosquatting/Imposter.  
+CLASSE: 3"
+28,4.111,0.148,0.741,0.222,0.111,1,3,xn--tatvralfeed-lce1156g.com,1,3,A,2,"Il tipo A è tipico di domini legittimi, ma la lunghezza (28) e l’entropia moderata (4.11) insieme al punycode “xn--…” e alla sequenza di caratteri apparentemente casuali indicano un dominio generato automaticamente piuttosto che un nome leggibile. Queste caratteristiche corrispondono alla firma di un DGA piuttosto che a traffico normale o tunneling.  
+
+CLASSE: 2"
+27,3.676,0.5,0.455,0.182,0.045,5,3,127.54.105.190.in-addr.arpa,0,0,AAAA,0,"Il record AAAA con lunghezza moderata, entropia relativamente bassa e formato tipico di un reverse‑DNS (IP‑in‑addr.arpa) indica traffico legittimo.  
+
+CLASSE: 0"
+21,3.975,0.1,0.75,0.2,0.15,1,3,xn--ivelak-vcb45s.com,1,3,A,3,"Il dominio è in punycode (xn--...), tipico di IDN usati per impersonare brand; il record A è legittimo e la lunghezza (21) e l’entropia (≈4) non sono tipiche di DGA o tunneling.  
+Queste caratteristiche indicano un possibile caso di typosquatting/impersonificazione.  
+
+CLASSE: 3"
+12,3.252,0.0,1.0,0.5,0.0,2,2,tmir.kiev.ua,0,0,A,0,"Il dominio è di tipo A, con lunghezza moderata (12) e bassa entropia (3.25), tipiche di un nome legittimo; i sotto‑domini sono pochi e non vi sono caratteri speciali o cifre.  
+Non mostra segni di tunneling, DGA o typosquatting.  
+
+CLASSE: 0"
+49,4.502,0.17,0.8300000000000001,0.255,0.0,2,4,fa7hfquss32epoqzawjgfuucqw96b95obm8l.attacco.test,1,2,AAAA,2,"La presenza di un record AAAA indica un normale mapping IP, ma la label principale è una stringa molto lunga (≈38 caratteri) con alta entropia (4.5) e pochi sottodomini, tipica dei domini generati da DGA piuttosto che di tunneling o typo‑squatting.  
+
+CLASSE: 2"
+51,4.329,0.0,1.0,0.20800000000000002,0.0,3,11,loyotvjjmuyccnehljkxnnjwltibvs.sandbox.alphasoc.xyz,1,1,TXT,1,"Tipo TXT con stringa di 51 caratteri e alta entropia (4.33), tipici di payload codificati per tunneling; la sequenza di consonanti e l'assenza di vocaboli reali rafforzano l'ipotesi.  
+CLASSE: 1"
+16,3.375,0.214,0.786,0.357,0.0,2,2,img.xigua110.com,0,0,A,0,"Il record è di tipo A, tipico per host di contenuti; la lunghezza (16) e l’entropia (3,38) sono basse, con un sottodominio “img” comune e pochi caratteri speciali, quindi non vi sono segnali di tunneling, DGA o typosquatting.  
+
+CLASSE: 0"
+51,4.4,0.0,1.0,0.271,0.0,3,8,obrxkrswmeyvkoyxchonhlztkgiiui.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e contiene una stringa di 51 caratteri, più lunga del consueto per un nome host, con entropia 4.4 tipica di payload codificati; questa combinazione di lunghezza estrema e uso di TXT è tipica del tunneling/exfiltration.  
+CLASSE: 1"
+51,4.364,0.0,1.0,0.229,0.0,3,11,sxjwvjfjdkmadgndfketelasshxcii.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.36) e un label estremamente lungo e incomprensibile indica l’uso tipico di un canale di tunneling/exfiltration dati.  
+CLASSE: 1"
+71,4.658,0.29,0.71,0.203,0.0,2,5,p9ylafqigsa1ah661t6599i8teac5t32qz3xeb0m9f8ywnrjamsg5g59el.attacco.test,1,2,AAAA,1,"La lunghezza di 71 caratteri è estremamente elevata e l’entropia 4.658 indica una stringa quasi casuale; il tipo AAAA, non tipico per domini legittimi, rafforza l’ipotesi di uso per tunnel o esfiltrazione dati.  
+
+CLASSE: 1"
+54,4.595,0.25,0.75,0.212,0.0,2,4,5a293un1g0petlnwuwo9yyrf9o59dczyax5s0j2vq.attacco.test,1,2,A,2,"Stringa molto lunga e apparentemente casuale, con entropia elevata (4.595) e solo 2 sottodomini; il record è di tipo A, tipico dei domini DGA piuttosto che del tunneling (che usa spesso TXT).  
+Il dominio risulta un sottodominio randomico tipico di malware DGA.  
+CLASSE: 2"
+11,3.096,0.0,1.0,0.4,0.0,1,2,fujifilm.ca,0,0,A,0,"Tipo A tipico di sito legittimo, lunghezza breve e bassa entropia indicano una parola reale senza anomalie strutturali.  
+CLASSE: 0"
+51,4.456,0.0,1.0,0.229,0.0,3,6,witkkxqmatgpeukfcgocybfwgeqsll.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT è relativamente lungo ma l’entropia è solo moderata; il primo label è una sequenza casuale di 30 caratteri con poche vocali, tipica di domini generati da algoritmo (DGA) piuttosto che di payload di tunneling.  
+CLASSE: 2"
+10,2.846,0.0,1.0,0.333,0.0,1,3,simpson.es,0,0,AAAA,0,"Il record AA**A** (IPv6) indica un dominio legittimo, la lunghezza (10) è tipica e l’entropia (2.846) è bassa, con una parola di senso compiuto (“simpson”) e nessuna anomalia di caratteri.  
+Non presenta caratteristiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+22,3.8449999999999998,0.19,0.667,0.14300000000000002,0.14300000000000002,1,3,xn--xfiit-sjc5421c.com,1,3,A,3,"Il dominio è in punycode (`xn--...`), tipico di omografi IDN usati per impersonare brand; la lunghezza è moderata e l’entropia non è estremamente alta, ma la presenza di caratteri speciali e la codifica punycode lo indirizzano verso un possibile typosquatting.  
+Il record A è comune, ma la forma del nome lo colloca nella categoria di domini impostori.
+
+CLASSE: 3"
+35,4.147,0.152,0.848,0.182,0.0,2,13,ow9525kljlwjxfrknvm2ot.attacco.test,1,2,A,2,"Il record è di tipo A e la lunghezza (35) è tipica per un singolo sottodominio; l’entropia 4.147, la lunga sequenza di consonanti (13) e il mix di cifre indicano una stringa pseudo‑casuale tipica di DGA piuttosto che un dominio leggibile.  
+
+CLASSE: 2"
+14,3.379,0.0,1.0,0.385,0.0,1,2,givemeport.com,1,3,A,0,"Tipo A, lunghezza media e bassa entropia; il dominio è composto da parole leggibili senza pattern di DGA o tunneling.  
+CLASSE: 0"
+23,3.523,0.0,1.0,0.4,0.0,3,3,www.freelancelogo.co.uk,0,0,AAAA,0,"Il record AAAA è tipico di un host legittimo; la lunghezza moderata (23) e l’entropia 3.5 mostrano un nome leggibile e non casuale.  
+CLASSE: 0"
+11,2.914,0.0,1.0,0.4,0.0,1,2,telkeom.com,1,3,A,0,"Il record è di tipo A, la lunghezza è moderata (11) e l'entropia (2.914) è tipica di parole leggibili, senza sequenze lunghe di consonanti o caratteri speciali, coerente con domini legittimi.  
+
+CLASSE: 0"
+51,4.187,0.0,1.0,0.292,0.0,3,6,gmxevcrtaaehnseusvancvtldeguvn.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa estremamente lunga (51 caratteri) con entropia moderata, tipica dei payload codificati usati per tunneling / exfiltration, e la struttura a label unica casuale lo rende poco plausibile come dominio legittimo.  
+
+CLASSE: 1"
+27,3.408,0.5,0.455,0.182,0.045,5,3,18.218.188.190.in-addr.arpa,0,0,AAAA,0,"Il dominio è un tipico record reverse‑DNS (in‑addr.arpa) con qtype AAAA, lunghezza moderata e bassa entropia, senza pattern di randomicità o payload lunghi. Le metriche indicano un traffico legittimo e non sospetto.  
+CLASSE: 0"
+27,3.454,0.5,0.455,0.182,0.045,5,3,109.20.130.190.in-addr.arpa,0,0,AAAA,0,"Il qtype AAAA (record di indirizzo) e la lunghezza moderata (27) con bassa entropia (3.45) sono tipici di domini reverse legittimi; non emergono pattern di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+11,3.459,0.0,1.0,0.30000000000000004,0.0,1,4,gearbst.com,1,3,A,0,"Il record è di tipo A, con lunghezza media (11) e entropia moderata (3,46), tipici di domini legittimi; non vi sono caratteristiche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+50,4.423,0.20800000000000002,0.792,0.146,0.0,2,6,w91wyupw0e4tgn8cnrzq83x3r8mwszyd1egct.attacco.test,1,2,A,2,"Lunga etichetta casuale (50 caratteri) con alta entropia (≈4.4) e record A, tipico di domini generati da malware piuttosto che di tunneling.  
+CLASSE: 2"
+66,4.716,0.219,0.781,0.188,0.0,2,6,nbt8jfyes47vj7azx3gela5r63qcv74nlbshx5rj5ea03pijxadym.attacco.test,1,2,AAAA,2,"Il tipo AAAA è legittimo, ma la prima label è una sequenza casuale di 60+ caratteri con alta entropia (4.7) e buona presenza di cifre, tipica di domini generati da DGA.  
+La lunghezza elevata e il numero ridotto di sottodomini rafforzano il profilo di un DGA.  
+CLASSE: 2"
+19,3.892,0.056,0.778,0.333,0.167,1,2,xn--vporia-eu7b.com,1,3,A,3,"Il record A indica un normale lookup, la lunghezza (19) e l’entropia (≈3.9) non sono tipiche di domini DGA o di tunnel dati estremamente lunghi; la presenza di punycode (xn--) suggerisce un possibile homograph/typosquatting.  
+
+CLASSE: 3"
+51,4.579,0.0,1.0,0.25,0.0,3,7,ltqmtnresvcyficxcjrkuikwumueqp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri è molto lungo e tipico dei canali di tunneling; l’entropia moderata (4.58) suggerisce dati codificati piuttosto che un nome casuale.  
+
+CLASSE: 1"
+28,4.164,0.115,0.885,0.192,0.0,2,3,hn9wpuz5xwq5mjd.attacco.test,1,2,A,2,"Il record A è comune, ma il sotto‑dominio “hn9wpuz5xwq5mjd” è una stringa casuale di 16 caratteri con entropia 4.16, tipica di domini DGA; la lunghezza e i pochi sottodomini non indicano tunneling.  
+CLASSE: 2"
+26,3.58,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,95.21.168.192.in-addr.arpa,0,0,AAAA,0,"Il tipo AA AAA indica un record di tipo AAAA (IPv6) tipico per reverse‑DNS; la lunghezza 26 e l’entropia 3.58 sono basse e coerenti con un nome strutturato (IP‑in‑addr.arpa) piuttosto che con una stringa casuale o estremamente lunga.  
+
+Non emergono pattern di tunneling né di DGA, né tentativi di imitare brand.
+
+CLASSE: 0"
+27,3.574,0.5,0.455,0.182,0.045,5,3,62.148.245.121.in-addr.arpa,0,0,AAAA,0,"Il qtype AAAA è tipico per record legittimi (A/AAAA), la lunghezza di 27 caratteri e l’entropia 3.57 sono nella media di un dominio di reverse‑lookup, senza pattern di alta entropia o stringhe eccessivamente lunghe.  
+Quindi corrisponde a traffico normale.  
+CLASSE: 0"
+59,4.61,0.211,0.789,0.193,0.0,2,5,1mbjl611cukvm1bf24ciz1gm0aorlyxh5bxtijeobkc0z9.attacco.test,1,2,AAAA,2,"Il dominio contiene una sottostringa molto casuale (alta entropia 4.61) e una lunghezza di 59 caratteri, tipica dei domini generati da DGA; il tipo di query AAAA è comune ma non è indicativo di tunneling, né vi sono anomalie strutturali.  
+
+CLASSE: 2"
+48,4.26,0.217,0.783,0.304,0.0,2,3,iw33az034oyuuwlzahvoa13ox6ynh1n3hog.attacco.test,1,2,AAAA,1,"La presenza di un record AAAA (AA​AA) combinata con una sotto‑stringa molto lunga e ad alta entropia (48 caratteri, entropia 4.26) è tipica di tunneling/exfiltration, dove i dati vengono codificati nel nome host. Il numero di sottodomini è basso ma la lunghezza estrema della prima etichetta suggerisce uso malevolo più che un normale dominio.
+
+CLASSE: 1"
+36,4.316,0.20600000000000002,0.794,0.20600000000000002,0.0,2,7,8f200wlhmqkmugwzeen89n9.attacco.test,1,2,AAAA,0,"Il record è di tipo AAAA (normale per indirizzi IPv6), la lunghezza è moderata (36) e l’entropia (4.3) non è estremamente alta; non ci sono pattern tipici di tunneling o DGA.  
+CLASSE: 0"
+27,3.334,0.5,0.455,0.182,0.045,5,3,109.13.199.190.in-addr.arpa,0,0,AAAA,0,"Il tipo di record AA(A)AAA indica un normale record di indirizzo (reverse PTR), la lunghezza è moderata e l'entropia (3.334) è bassa, tipica di stringhe strutturate con numeri e parti fisse. Non vi sono anomalie di lunghezza estrema né di casualità; sembra un dominio di risoluzione IP legittimo.  
+CLASSE: 0"
+45,4.411,0.163,0.837,0.233,0.0,2,5,6whv6eheav94ko2wjnfretobkpq65xvg.attacco.test,1,2,A,2,"Lunghezza moderata e tipo A indicano traffico tipico, ma l’etichetta iniziale è una stringa casuale con entropia 4.41, alta percentuale di cifre e poche sottodomini, tipica di domini generati da DGA.  
+
+CLASSE: 2"
+14,3.664,0.077,0.923,0.385,0.0,1,3,isana2lyze.com,1,3,A,0,"Il record di tipo A è tipico dei domini legittimi, la lunghezza (14) è moderata e l’entropia (3.66) non indica casualità elevata; il nome contiene sequenze vocali/consonanti leggibili.  
+Non mostra segni di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+51,4.312,0.0,1.0,0.188,0.0,3,15,wzllwhgvswwvwfjegjbzxinvzifamc.sandbox.alphasoc.xyz,1,1,TXT,1,"Tipo TXT con stringa molto lunga (51 caratteri), alta entropia (4.3) e lunghi blocchi consonantici, tipici di payload codificati in tunnel DNS.  
+Pochi sottodomini e assenza di cifre confermano un uso mirato per esfiltrazione dati.
+
+CLASSE: 1"
+16,3.5,0.5,0.5,0.214,0.0,2,1,d2098629.xoom.it,0,0,A,0,"Record A, lunghezza moderata (16) e entropia 3.5 indicano uso legittimo; il prefisso sembra un semplice ID, non tipico di DGA né di tunneling.  
+CLASSE: 0"
+36,3.972,0.265,0.735,0.23500000000000001,0.0,2,3,ny7yet74338a2k7ha8yfnuk.attacco.test,1,2,AAAA,2,"Il qtype AAAA è un record di tipo indirizzo, non tipico per tunnel via TXT; la lunghezza 36 e l'alta entropia (≈3.97) con stringa apparentemente casuale indicano un dominio generato algoritmicamente.  
+Pertanto rientra nella categoria Malware DGA.  
+CLASSE: 2"
+13,3.239,0.083,0.917,0.417,0.0,1,2,seasonvar2.ru,1,3,A,0,"Il record è di tipo **A**, tipico dei domini legittimi; la lunghezza (13) e l’entropia (3,24) sono nella media, senza sequenze di caratteri insolite né punycode. Non emergono pattern di tunneling né di DGA, né typo‑squatting.
+
+CLASSE: 0"
+51,4.255,0.0,1.0,0.271,0.0,3,9,zoaecwcmcrcsmihaqeygjtdewocqwc.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e alta entropia (4.255), tipica di payload codificati per tunneling; la lunga sequenza di consonanti e l'assenza di parole reali rafforzano l'ipotesi.  
+Pertanto rientra nella categoria di tunneling / data exfiltration.  
+CLASSE: 1"
+55,4.459,0.264,0.736,0.151,0.0,2,6,6kqbyx303bhmm3yderbtwlq0c6ke88lc12c0b7jaa0.attacco.test,1,2,AAAA,2,"Il tipo AAAA indica un record di indirizzo legittimo, ma la sottostringa di 55 caratteri è altamente casuale (alta entropia ≈ 4.46, molte cifre) e con pochi sottodomini, tipico di domini generati da DGA.  
+
+CLASSE: 2"
+51,4.275,0.0,1.0,0.188,0.0,3,15,ngbztcsccxqrktbugkkpijkcdgayci.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT, la lunghezza estrema (51) e l’entropia relativamente alta (4.275) con una lunga sequenza di consonanti indicano l’uso di una stringa codificata per trasporto dati, tipico del tunneling/exfiltration.  
+CLASSE: 1"
+12,3.189,0.091,0.909,0.273,0.0,1,2,dro0books.tv,1,3,A,0,"Il record è di tipo A, la lunghezza è moderata (12) e l’entropia (3.19) è tipica di domini leggibili, senza sottodomini sospetti né caratteri speciali. Queste caratteristiche corrispondono a un dominio legittimo.  
+CLASSE: 0"
+13,2.873,0.182,0.8180000000000001,0.364,0.0,2,1,g0og1e.com.eg,1,3,A,0,"Il record è di tipo A, la lunghezza è moderata e l’entropia è bassa, tipiche di domini legittimi; non vi sono pattern di lunghe stringhe o alta casualità.  
+
+CLASSE: 0"
+23,3.849,0.273,0.591,0.136,0.136,1,2,xn--arzes3-m1c6368c.com,1,3,A,3,"Il record è di tipo A (normale) e la lunghezza (23) e l'entropia (3,85) non sono estreme, ma la presenza di punycode (xn--) indica un possibile dominio IDN usato per imitare un brand legittimo; i pochi sottodomini e la presenza di cifre suggeriscono una tecnica di typosquatting.  
+
+CLASSE: 3"
+46,4.1370000000000005,0.182,0.8180000000000001,0.227,0.0,2,7,vegbcf0r98e07zysojoor70etrtbskj6c.attacco.test,1,2,AAAA,2,"Il record AAAA è legittimo, ma la sotto‑stringa di 32 caratteri è quasi casuale, con entropia 4,14 e lunghezza elevata, tipica dei domini generati da DGA.  
+Non è né estremamente lungo né usa TXT (esclude tunneling) e non imita alcun brand (esclude typosquatting).  
+
+CLASSE: 2"
+27,3.676,0.5,0.455,0.182,0.045,5,3,133.252.24.187.in-addr.arpa,0,0,AAAA,0,"Il dominio è un tipico reverse‑DNS con una lunghezza moderata (27) e entropia relativamente bassa (3.68), tipica di record legittimi; il qtype AAAA è insolito ma non implica anomalie strutturali.  
+Non mostra sequenze di caratteri casuali né lunghezze estreme tipiche di tunneling o DGA.
+
+CLASSE: 0"
+22,3.243,0.05,0.9500000000000001,0.35000000000000003,0.0,2,3,aarfse3qc.attacco.test,1,2,A,0,"Il record è di tipo A, tipico dei normali lookup, la lunghezza è media (22) e l’entropia è bassa (3.24), indicativi di un dominio leggibile e non di tunneling o DGA.  
+CLASSE: 0"
+51,4.268,0.0,1.0,0.25,0.0,3,7,ehbaqdzwmyyibrekcaxnqexcpowhrs.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT di 51 caratteri, con alta entropia (4.27) e un prefisso di 32 lettere quasi casuali (bassa % vocali, lunga sequenza di consonanti) indica un dominio generato da algoritmo DGA più che un tunnel di dati; la lunghezza è moderata, non “estrema”.  
+
+CLASSE: 2"
+12,3.085,0.0,1.0,0.364,0.0,1,3,paulflum.com,0,0,AAAA,0,"Il tipo AAAA (record IPv6), la lunghezza di 12 caratteri e l’entropia bassa (3.09) indicano un nome leggibile e non casuale.  
+Assenza di cifre, caratteri speciali e pochi sottodomini confermano un comportamento normale.  
+CLASSE: 0"
+26,3.657,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,64.23.229.189.in-addr.arpa,0,0,AAAA,0,"La query è un tipico record reverse‑DNS (in‑addr.arpa) con qtype AAAA, lunghezza media e entropia moderata, tipiche di domini legittimi.  
+CLASSE: 0"
+51,4.349,0.0,1.0,0.25,0.0,3,14,oixxmvqzrwychtwsokxojjitzydyua.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e alta entropia (4.349), tipica di payload codificati per tunneling/exfiltration. La presenza di una sequenza di consonanti di 14 caratteri e l'assenza di caratteri speciali rafforzano il profilo di dati inseriti in modo artificiale.  
+CLASSE: 1"
+22,3.55,0.15,0.85,0.30000000000000004,0.0,2,2,mob199.photobucket.com,0,0,A,0,"Il record A di una lunghezza moderata (22) e bassa entropia (3.55) corrisponde a un normale sottodominio di un servizio legittimo (photobucket.com), senza indizi di tunneling o DGA.  
+CLASSE: 0"
+14,3.325,0.385,0.615,0.077,0.0,1,2,zp9odt2t9.96bq,0,0,A,2,"Il record è di tipo A (normale), ma la label di 14 caratteri è dominata da cifre, ha poche vocali e un’entropia moderata (3.3), tipica di domini generati automaticamente e non di parole leggibili.  
+CLASSE: 2"
+51,4.407,0.0,1.0,0.292,0.0,3,7,mietazzlhavloujuxtqjawezkdkxgt.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT con un’etichetta di 30 caratteri, alta entropia (4.4) e predominanza di consonanti suggerisce il trasporto di dati codificati; la lunghezza anomala e il tipo TXT sono tipici di tunneling/exfiltration.  
+CLASSE: 1"
+15,3.774,0.214,0.786,0.214,0.0,1,3,n121adservb.com,1,3,A,0,"Il record di tipo **A** è tipico di domini legittimi; la lunghezza (15) è moderata e l’entropia (3.77) non indica una stringa casuale né un payload estremamente lungo. La presenza di qualche cifra e di un solo sottodominio rende più probabile un nome di servizio (es. “adserv”) piuttosto che un DGA o tunneling.  
+
+CLASSE: 0"
+18,3.572,0.11800000000000001,0.706,0.11800000000000001,0.176,1,3,xn--tpx-kna08p.com,1,3,A,3,"Record A di tipo normale, lunghezza media e entropia moderata; il prefisso “xn--” indica un dominio IDN punycode, tipico di omografi/typosquatting.  
+CLASSE: 3"
+51,4.588,0.0,1.0,0.20800000000000002,0.0,3,10,ijcdrzkbxqwegqdcvpywnmeejkmfbu.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT contiene una stringa di 51 caratteri con entropia 4.588 e una etichetta di 30 lettere quasi prive di vocali, tipica di domini generati automaticamente (alta casualità, pochi sottodomini).  
+Non presenta la lunghezza estrema tipica del tunneling né elementi di brand spoofing, quindi rientra nella categoria DGA.  
+CLASSE: 2"
+15,3.457,0.0,0.929,0.357,0.07100000000000001,1,2,slidesha-re.net,1,3,A,3,"Record A di dimensione media (15) con entropia moderata (3.46) indica un dominio leggibile, ma la forma “slidesha‑re” richiama il brand Slideshare, tipico di typosquatting.  
+CLASSE: 3"
+52,4.463,0.1,0.9,0.30000000000000004,0.0,2,4,sas4yzouq6vq7mjku6wjlb9xuusoifsepaoqlbp.attacco.test,1,2,A,2,"Il record è di tipo A (normale per beacon), ma la lunghezza estrema (52) e l’entropia elevata (4.46) indicano un sottodominio generato casualmente, tipico dei DGA; non è un TXT né un dominio leggibile.  
+CLASSE: 2"
+22,4.061,0.0,0.857,0.23800000000000002,0.14300000000000002,1,3,xn--thegurbian-yfb.com,1,3,A,3,"Il dominio è in punycode (`xn--`), tipico degli IDN usati per impersonare brand; la lunghezza media (22) e l’entropia moderata (4.06) non indicano payload estremi né stringhe casuali, ma una parola quasi leggibile.  
+Il record di tipo A e la presenza di un solo sottodominio rafforzano l’ipotesi di un sito “normale” ma con intento di typosquatting.
+
+CLASSE: 3"
+70,4.6850000000000005,0.23500000000000001,0.765,0.20600000000000002,0.0,2,10,5393zi2dazoafxorr3budg2oiya65089p2ny2kfry6bpfdfyymldok7gz.attacco.test,1,2,AAAA,1,"Il record AAAA è tipico di traffico legittimo, ma la lunghezza estrema (70 caratteri) e l’alto livello di entropia del sotto‑dominio indicano un payload codificato inserito nel nome, tipico di tunneling / data exfiltration.  
+Quindi, nonostante il tipo di record, le caratteristiche della stringa corrispondono alla classe 1.  
+
+CLASSE: 1"
+26,3.475,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,78.108.61.186.in-addr.arpa,0,0,AAAA,0,"Il tipo AA​AA (record PTR per reverse DNS) è tipico del traffico legittimo, la lunghezza di 26 caratteri e l’entropia moderata (3.475) indicano un nome strutturato (IP‑in‑addr.arpa) piuttosto che una stringa casuale o estremamente lunga.  
+
+Non vi sono segnali di tunneling, DGA o typosquatting.
+
+CLASSE: 0"
+12,3.085,0.0,1.0,0.364,0.0,1,3,alphasoc.com,0,0,AAAA,0,"Il record AAAA indica un normale servizio IPv6; la lunghezza 12 e l’entropia bassa (3.08) tipiche di parole leggibili, con vocali e consonanti in proporzioni naturali e senza cifre o caratteri speciali, suggeriscono un dominio legittimo.  
+CLASSE: 0"
+48,4.548,0.17400000000000002,0.8260000000000001,0.13,0.0,2,5,qvzni3pj5lkhsv4rp6of3vlvqw2s7nqln1c.attacco.test,1,2,A,1,"La lunghezza estremamente elevata (48) e l'alta entropia (4.55) tipizzano un payload codificato in un singolo label, tipico del DNS tunneling, nonostante il record sia di tipo A.  
+CLASSE: 1"
+22,3.8449999999999998,0.14300000000000002,0.714,0.23800000000000002,0.14300000000000002,1,2,xn--engadt-tva501a.com,1,3,A,3,"Il record è di tipo A (tipico dei domini legittimi), ma la lunghezza moderata (22) e l’entropia non particolarmente alta (3.845) non indicano un payload di tunneling né una DGA; il fatto che il dominio sia in Punycode (xn--) è tipico di impersonificazione/typosquatting.  
+
+CLASSE: 3"
+33,4.127,0.161,0.839,0.226,0.0,2,9,u0ak6wibdybsjscl59k5.attacco.test,1,2,A,2,"Il dominio usa un record di tipo A (tipico di host legittimi) ma presenta un sottodominio lungo (33 caratteri) con elevata entropia (4.127) e una sequenza di consonanti molto alta, tipico dei DGA piuttosto che di traffico normale o tunneling.  
+Classificazione basata su random‑like label, pochi sottodomini e assenza di caratteri speciali.
+
+CLASSE: 2"
+51,4.422,0.0,1.0,0.229,0.0,3,8,npndwvvuoubphfztkeemctgzzlgakl.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una sottostringa molto lunga (51 caratteri) con entropia 4.42, tipica di payload codificati usati per tunnel/exfiltration DNS.  
+CLASSE: 1"
+51,4.131,0.0,1.0,0.229,0.0,3,9,xocfakvybhhxffabsxewtoynogslfn.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con elevata lunghezza e entropia (4.13) tipica di payload codificati, insieme a una sequenza di consonanti molto lunga, indica uso di DNS per tunneling / esfiltrazione.  
+
+CLASSE: 1"
+34,3.903,0.0,1.0,0.367,0.0,4,3,inbound.saywhat.com.netsolmail.net,0,0,A,0,"Record di tipo A con sottodomini leggibili (inbound, saywhat, netsolmail), lunghezza moderata e entropia non eccessiva, nessun pattern tipico di tunneling o DGA.  
+CLASSE: 0"
+8,3.0,0.0,1.0,0.28600000000000003,0.0,1,2,bint.com,1,3,A,0,"Il record è di tipo **A**, la lunghezza è moderata (8) e l’entropia è bassa (3.0), tipiche di domini legittimi; non ci sono pattern di tunneling né caratteristiche di DGA o typo‑squatting.  
+CLASSE: 0"
+39,3.717,0.0,1.0,0.4,0.0,4,2,inbound.blueheroninn.com.netsolmail.net,0,0,A,0,"Il record A con lunghezza moderata (39) e entropia media (3.7) contiene sottodomini leggibili (inbound, blueheroninn, com, netsolmail) tipici di una struttura legittima, non presenta caratteristiche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+51,4.312,0.0,1.0,0.292,0.0,3,7,fyinbklaocweeoypfibsbaqvzkmhfe.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.312) e una sequenza di consonanti molto lunga indica un payload codificato tipico del tunneling/exfiltration, piuttosto che un semplice DGA. La lunghezza estrema e l’uso di TXT sono coerenti con la classe 1.  
+CLASSE: 1"
+28,4.138,0.074,0.778,0.185,0.148,1,3,xn--er-advertisng-cnb84f.com,1,3,A,3,"Il dominio è in punycode (xn--...), tipico di tentativi di imitare marchi; il record è di tipo A (normale) e la lunghezza/entropia non sono estreme, ma la forma “er‑advertisng” suggerisce typo‑squatting.  
+
+CLASSE: 3"
+8,3.0,0.0,1.0,0.28600000000000003,0.0,1,2,jber.com,1,3,A,0,"Il record di tipo **A** è tipico di domini legittimi; la lunghezza (8) e l’entropia bassa (3.0) indicano una stringa leggibile (“jber”) senza pattern di random o payload. Nessuna anomalia di sottodomini o caratteri speciali suggerisce traffico normale.  
+CLASSE: 0"
+51,4.366,0.0,1.0,0.188,0.0,3,14,fkqqbwwyaktotjkymbvlmgjvkqazco.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT è lungo (label di 32 caratteri) con alta entropia (4.36) e una sequenza di 14 consonanti, tipico di domini generati casualmente piuttosto che di payload codificati.  
+CLASSE: 2"
+53,4.43,0.137,0.863,0.275,0.0,2,3,xlozi5rutl2nt2w4rwovxufea9unilndicj8chw4.attacco.test,1,2,AAAA,2,"La presenza di un record AAAA indica un uso tipico di risoluzione IP, ma la lunghezza di 53 caratteri con entropia 4.43 e una stringa apparentemente casuale suggeriscono un dominio generato automaticamente più che un normale nome leggibile. Con pochi sottodomini e alto indice di randomicità, il profilo corrisponde a un possibile DGA di malware.  
+CLASSE: 2"
+26,3.642,0.08,0.8,0.28,0.12,1,3,xn--monycontol-cc2eu1a.com,1,3,A,3,"Il dominio è un punycode (xn--) che imita “moneycontrol”, tipico di typosquatting; la lunghezza è moderata e l’entropia non è elevata, confermando un intento di impersonificazione più che di generazione casuale.  
+
+CLASSE: 3"
+51,4.376,0.0,1.0,0.25,0.0,3,10,vbgirxlnwoawbyyxeaszhnktfcdduo.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è TXT, tipico per il trasporto di payload; la lunghezza di 51 caratteri e la stringa quasi incomprensibile con una lunga sequenza di consonanti suggeriscono dati codificati incapsulati nel nome di dominio. L’entropia moderata (4.376) è coerente con dati codificati, tipico del DNS tunneling.  
+CLASSE: 1"
+72,4.769,0.186,0.8140000000000001,0.257,0.0,2,8,ekmudiuxmo93shids5hhhu7i2c9n165ifuij9bqvnxnjz2a4gl2fqltqguo.attacco.test,1,2,A,2,"Il record è di tipo A, ma il nome contiene una stringa molto lunga (72 caratteri) ad alta entropia (≈4.77) e quasi nessun carattere speciale, tipico di domini generati automaticamente (DGA).  
+CLASSE: 2"
+51,4.336,0.0,1.0,0.25,0.0,3,8,xzhjgmhimdciskzarjwkncllaelxui.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, la label è estremamente lunga (51 caratteri) e mostra alta entropia (4.336), tipica di payload codificati inseriti in sottodomini; la struttura casuale suggerisce un canale di tunneling/exfiltration.  
+
+CLASSE: 1"
+51,4.28,0.0,1.0,0.25,0.0,3,10,tgajwdvdiyozojsaopduskttwhpfhx.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.28) e una sequenza di 10 consonanti indica un payload codificato tipico del tunneling/exfiltration; la lunghezza estrema e l’uso di TXT lo collocano nella classe 1.  
+CLASSE: 1"
+51,4.422,0.0,1.0,0.188,0.0,3,15,thobwpvznrbfnzzjfreccqlimyrcjo.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri, con alta sequenza di consonanti e bassa percentuale di vocali, indica un payload codificato tipico di tunneling/exfiltration; l'entropia elevata supporta la presenza di dati non leggibili.  
+CLASSE: 1"
+38,4.179,0.361,0.639,0.139,0.0,2,3,77kg36f71p42en6y0j6y00yjt.attacco.test,1,2,AAAA,2,"Il record AAAA indica un tipico lookup di indirizzo, ma la label principale è una sequenza alfanumerica lunga (38 caratteri), con entropia moderata (4.18) e bassa presenza di vocali, tipica dei domini generati da algoritmo piuttosto che di parole legittime. Con solo due sottodomini e assenza di pattern verbali, corrisponde al profilo di un DGA.
+
+CLASSE: 2"
+25,4.004,0.261,0.739,0.17400000000000002,0.0,2,4,19x4l7dpqh57.attacco.test,1,2,A,2,"Il dominio usa un record A (tipico del traffico normale) ma il sotto‑dominio “19x4l7dpqh57” è una stringa alfanumerica casuale di lunghezza media con entropia 4.0, tipica dei DGA più che di tunneling o di domini leggibili.  
+
+CLASSE: 2"
+74,4.74,0.222,0.778,0.194,0.0,2,4,xvbf2o8fwj0voevki0vzs4b6o5syipj3zg3o7vheh1v0yk0int9os0rzch4xf.attacco.test,1,2,A,2,"La query usa un record A (normale) ma il nome contiene una label estremamente lunga, alta entropia (4.74) e una sequenza quasi casuale di lettere e cifre, tipica dei domini generati da algoritmo DGA.  
+
+CLASSE: 2"
+20,3.684,0.158,0.684,0.211,0.158,1,2,xn--aswes-w7a27p.com,1,3,A,3,"Il dominio è un punycode (xn--) tipico di IDN usati per imitare brand; il record è di tipo A (normale) e, nonostante la lunghezza 20 e l’entropia moderata (3.68), la presenza di caratteri speciali e la struttura incomprensibile suggeriscono un tentativo di imposter/typosquatting.  
+
+CLASSE: 3"
+14,3.379,0.231,0.769,0.231,0.0,1,2,kf9owijje.94wr,0,0,A,2,"La presenza di un record di tipo A, una lunghezza media (14 caratteri) e un’entropia moderata (3.38) indicano che non è un payload di tunneling; tuttavia la stringa “kf9owijje” è poco pronunciabile, con alta densità di caratteri casuali e nessun elemento riconoscibile, tipico dei domini generati da DGA.  
+
+CLASSE: 2"
+51,4.461,0.0,1.0,0.229,0.0,3,10,vgslkkqfmtebjqmuebjgvuoazpqzfs.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT contiene una stringa di 51 caratteri con alta entropia (4.46) e una sequenza di 10 consonanti consecutive, tipica di domini generati casualmente piuttosto che di payload codificati; la lunghezza è moderata e non mostra pattern di tunneling.  
+CLASSE: 2"
+27,3.81,0.12,0.88,0.24,0.0,2,4,8loppsumpsw0f9.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di un host legittimo, ma il sottodominio “8loppsumpsw0f9” è lungo, ha entropia 3.81 e appare casuale, senza parole di senso compiuto né caratteri speciali, caratteristiche tipiche dei domini generati da DGA.  
+CLASSE: 2"
+51,4.307,0.0,1.0,0.229,0.0,3,8,wnmupdpevrrnfxrnebpnziehpjubnw.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la label è molto lunga (51 caratteri) con elevata entropia (4.307), tipici di payload codificati usati per tunneling/exfiltration. La struttura casuale e la mancanza di pattern lessicali supportano la classificazione come trasferimento dati.
+
+CLASSE: 1"
+51,4.383,0.0,1.0,0.292,0.0,3,8,livctoznuzsteojiwuqfaebpzyxfpt.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con elevata entropia (4.38) e predominanza di consonanti, tipica di payload codificati per tunneling/exfiltration.  
+CLASSE: 1"
+45,4.219,0.14,0.86,0.186,0.0,2,5,ywbasjtj1jwhvr2u2otbrw4yhs5qc4iv.attacco.test,1,2,A,2,"Il record è di tipo A (normale per host) ma il nome host è una lunga stringa apparentemente casuale (45 caratteri) con entropia moderata (4.219) e senza parole di senso compiuto, tipico dei domini generati da DGA.  
+CLASSE: 2"
+25,3.559,0.45,0.5,0.2,0.05,5,3,125.94.54.85.in-addr.arpa,0,0,AAAA,0,"Il record AAAA per un reverse DNS (in‑addr.arpa) è tipico, la lunghezza è moderata (25) e l’entropia (3.559) è bassa, indicando un dominio legittimo e privo di pattern anomali.  
+CLASSE: 0"
+51,4.378,0.0,1.0,0.271,0.0,3,12,ehtouilsftphwzsrvbeuelbjtphbku.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, tipico per il tunneling, con una stringa molto lunga (51 caratteri) e alta entropia (4.38), caratterizzata da molte consonanti e poche vocali, suggerendo un payload codificato.  
+CLASSE: 1"
+51,4.265,0.0,1.0,0.292,0.0,3,7,moxjuocfvygpyoedohoorcugrsxkvb.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, tipico per il trasporto di payload; la stringa è estremamente lunga (51 caratteri) con alta entropia (4.265), suggerendo dati codificati. La struttura casuale e i pochi sottodomini rafforzano l'ipotesi di tunneling / esfiltrazione dati.  
+CLASSE: 1"
+27,3.884,0.077,0.808,0.192,0.115,1,5,xn--steamcmmnity-jib45n.com,1,3,A,3,"Il dominio in punycode imita “steamcommunity” (typo) e non presenta entropia o lunghezza anomale; il record A è tipico di un sito legittimo.  
+Queste caratteristiche corrispondono a un caso di typosquatting/Imposter.  
+CLASSE: 3"
+25,3.479,0.45,0.5,0.2,0.05,5,3,61.81.64.177.in-addr.arpa,0,0,AAAA,0,"Il tipo di record AA… è tipico per reverse‑DNS (PTR) e non indica attività anomala; la lunghezza di 25 caratteri e l’entropia 3.48 sono nella media, senza stringhe estremamente lunghe o casuali.  
+Il numero di sotto‑domini, la presenza moderata di cifre e la bassa percentuale di caratteri speciali sono coerenti con un dominio legittimo di tipo reverse‑lookup.  
+
+CLASSE: 0"
+28,4.039,0.077,0.808,0.231,0.115,2,3,xn--mercaolibe-dkb85f.com.mx,1,3,A,3,"Il dominio è in punycode (xn--), tipico di IDN usati per impersonare brand; la lunghezza è moderata (28) e l’entropia (4,04) non è estremamente alta, mentre il record A è comune per siti legittimi ma non esclude l’abuso. Questi indizi puntano a un possibile impersonamento/typosquatting.  
+
+CLASSE: 3"
+34,4.057,0.125,0.875,0.219,0.0,2,5,4g4gnjmb59cweqsvavekg.attacco.test,1,2,A,2,"Il dominio usa un record A (tipico dei payload DGA) e ha una lunghezza media (34) con entropia moderata‑alta (4.06) tipica di stringhe generate casualmente; il sottodominio iniziale è incomprensibile mentre il secondo è una parola comune, indicativo di un DGA che aggiunge prefissi random.  
+
+CLASSE: 2"
+51,4.258,0.0,1.0,0.229,0.0,3,7,ucenwdzjqqaxzjhowzaklhevkqlccv.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record è di tipo TXT e contiene un’etichetta di 30 caratteri quasi priva di vocali, con alta entropia (4.258) e pochi sottodomini, tipico dei domini generati da DGA piuttosto che di tunneling estremo.  
+
+CLASSE: 2"
+16,3.375,0.07100000000000001,0.929,0.28600000000000003,0.0,2,3,dns0.calleva.net,0,0,AAAA,0,"Il record AAAA è un normale mapping IPv6; la lunghezza 16 e l’entropia 3.375 sono tipiche di domini leggibili con parole “dns” e “calleva”, senza anomalie strutturali.  
+CLASSE: 0"
+51,4.196,0.0,1.0,0.271,0.0,3,5,qbqiepvcheandzlsibbdnhuklzizip.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT con un sottodominio molto lungo (51 caratteri) e alta entropia è tipico del trasporto di payload codificati per tunneling/data exfiltration.  
+CLASSE: 1"
+51,4.305,0.0,1.0,0.188,0.0,3,13,rljfhuxgqcphhmcjyyvaulsxoxthvf.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT contiene una stringa di 51 caratteri con alta entropia (4.3) e una lunga sequenza di consonanti, tipica di domini generati casualmente piuttosto che di payload di tunneling estremamente lunghi.  
+CLASSE: 2"
+10,3.122,0.0,1.0,0.222,0.0,1,5,uqfclh.com,0,0,AAAA,2,"Il tipo di record AAAA non è standard, la lunghezza è breve (10) ma l’entropia (3.12) è elevata e la stringa è quasi priva di vocali, tipica di domini generati da DGA.  
+Nessun segno di brand, né di payload estremamente lungo, quindi la più probabile categoria è malware DGA.  
+
+CLASSE: 2"
+25,3.814,0.125,0.75,0.25,0.125,1,4,xn--eserchgate-s5a41l.net,1,3,A,3,"Il record è di tipo A, con lunghezza moderata (25) e entropia non elevata (3.814), ma il dominio è in punycode (xn--) tipico di IDN usati per imitare brand legittimi.  
+CLASSE: 3"
+14,3.379,0.0,1.0,0.231,0.0,1,5,thekitchnd.com,1,3,A,3,"Il record A e la moderata lunghezza/entropia (3.38) suggeriscono un dominio standard, ma la stringa “thekitchnd” è una variante troncata di “thekitchen”, tipica di typo‑squatting.  
+CLASSE: 3"
+26,4.104,0.2,0.68,0.2,0.12,1,3,xn--discvecard-79a298b.com,1,3,A,3,"Il dominio è un punycode (xn--...), tipico di IDN usati per imitare brand; la lunghezza è media (26) e l’entropia (4.1) non è altissima, quindi non suggerisce DGA né tunneling, mentre il nome “discvecard” ricorda “discover card”.  
+CLASSE: 3"
+43,4.2,0.22,0.78,0.146,0.0,2,4,y85lcmciq33lkq3nx3dxc7mpo3k9mk.attacco.test,1,2,AAAA,2,"La presenza di un record AAAA indica un normale utilizzo di DNS per indirizzi IPv6; la lunghezza di 43 caratteri e l’entropia 4.2 suggeriscono una stringa casuale tipica di domini generati automaticamente, con pochi sottodomini. Non ci sono segnali di tunneling (record TXT) né di imitazione di brand.
+
+CLASSE: 2"
+35,4.072,0.182,0.8180000000000001,0.212,0.0,2,4,k9ttlg06fsp3yoofedxm00.attacco.test,1,2,AAAA,0,"Il record AAAA indica una normale risoluzione IPv6; la lunghezza (35) e l’entropia (≈4,07) sono moderate, tipiche di domini legittimi o di test, non di payload estremi o di DGA.  
+
+CLASSE: 0"
+51,4.275,0.0,1.0,0.20800000000000002,0.0,3,9,crezsbcymxfmuqtpcuombsyhbdrutq.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT è lungo (51 caratteri) e presenta alta entropia (4.275) con una sequenza di 9 consonanti, tipico di payload codificati usati per tunneling/exfiltrazione.  
+Queste caratteristiche corrispondono alla classe 1 (Tunneling / Data Exfiltration).  
+
+CLASSE: 1"
+39,3.949,0.083,0.833,0.278,0.083,3,2,hatenablog.xn--c-vga626t.hatenablog.com,1,3,A,0,"Il record è di tipo A (normale per host), la lunghezza (39) è moderata e l’entropia (≈3.95) non è tipica di stringhe casuali o payload codificati; la presenza di parole leggibili (“hatenablog”) indica un dominio legittimo non un DGA o tunneling.  
+CLASSE: 0"
+27,3.602,0.5,0.455,0.182,0.045,5,3,50.130.218.208.in-addr.arpa,0,0,AAAA,0,"Il qtype AA​AA è un record di tipo indirizzo, tipico per query reverse DNS; la lunghezza 27 e l’entropia 3,6 sono compatibili con una sequenza di numeri/punti, non con payload codificati.  
+Il conteggio di 5 sottodomini e la presenza significativa di cifre riflettono la struttura standard di “in‑addr.arpa”.  
+CLASSE: 0"
+25,4.054,0.20800000000000002,0.667,0.20800000000000002,0.125,1,3,xn--duckdukg-l4a1492e.com,1,3,A,3,"Il dominio è un punycode (xn--) che ricorda “duckduckg”, tipico di typo‑squatting/impersonation; il record A è legittimo, la lunghezza (25) e l’entropia (4.05) non sono tipiche di DGA o tunneling.  
+
+CLASSE: 3"
+51,4.299,0.0,1.0,0.167,0.0,3,22,zicxqepofpdxjnlnzyzrfprskwxcxt.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa lunga 51 caratteri con alta entropia (4.3) e una sequenza di 22 consonanti, tipica di payload codificati per tunneling / data exfiltration. La forma casuale e l’uso di TXT non corrispondono a un dominio legittimo né a un brand, escludendo le altre classi.  
+CLASSE: 1"
+51,4.258,0.0,1.0,0.271,0.0,3,8,aweankcuvupvdtexylxubeqclythsc.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una label estremamente lunga (51 caratteri) con alta entropia (4.258), tipica di payload codificati usati per tunneling / data exfiltration.  
+CLASSE: 1"
+63,4.631,0.213,0.787,0.23,0.0,2,4,7t705x1gnvp0hfi36tkgr7znrraxk6gel3fo5k5euwkeoudduv.attacco.test,1,2,A,1,"La query è di tipo A ma contiene un’etichetta molto lunga (≈56 caratteri) con alta entropia (4.63) e un mix di cifre/vocali tipico di payload codificati, caratteristiche tipiche di tunneling/exfiltration più che di un DGA “normale”.  
+
+CLASSE: 1"
+16,3.328,0.0,1.0,0.28600000000000003,0.0,2,3,www.filedesc.com,0,0,A,0,"Il record è di tipo **A**, la lunghezza è modesta (16) e l'entropia è bassa (3.3), tipiche di domini legittimi con parole di senso compiuto. Nessuna anomalia di sottodomini, cifre o caratteri speciali suggerisce attività malevola.  
+CLASSE: 0"
+27,3.602,0.5,0.455,0.182,0.045,5,3,253.119.83.189.in-addr.arpa,0,0,A,0,"Il tipo A, la lunghezza moderata (27) e l’entropia contenuta (≈3.6) sono tipici di un record reverse‑DNS legittimo (octet‑separated, molti numeri). La struttura “x.x.x.x.in-addr.arpa” indica traffico normale.  
+CLASSE: 0"
+51,4.26,0.0,1.0,0.25,0.0,3,7,rzkcuzaszeatgpdaoxrrpbojcmsvlb.sandbox.alphasoc.xyz,1,1,TXT,1,"Il tipo TXT, la lunghezza estrema (51) e l’entropia elevata (4.26) indicano uso di un sottodominio per trasportare dati codificati, tipico del tunneling/exfiltration. Non appare un DGA classico né un typo‑squatting.
+
+CLASSE: 1"
+85,4.333,0.47300000000000003,0.5,0.135,0.027,11,9,c-0.19-a30f5081.30481.1518.19d4.3ea1.410.0.m9i83cf5qps89pvqsggvgf47ij.avqs.mcafee.com,0,0,A,2,"Lqtype A è tipico dei C2 DGA; la lunghezza 85 e l’entropia 4.33 indicano stringhe quasi casuali con molti numeri, e i 11 sottodomini rinforzano l’aspetto di hostname generati automaticamente.  
+CLASSE: 2"
+51,4.273,0.0,1.0,0.188,0.0,3,12,jzpybhlocopkxrgltlrpmwahzvoknc.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT è tipico per tunneling; la lunghezza 51 e l'alta entropia 4.27 con 12 consonanti consecutive suggeriscono un payload codificato.  
+CLASSE: 1"
+22,3.5380000000000003,0.048,0.81,0.19,0.14300000000000002,1,3,xn--duckduckq-em7d.com,1,3,A,3,"Il dominio è in punycode (xn--) e riproduce una variante di “duckduckgo”, tipico caso di typo‑squatting; il record A, la lunghezza moderata e l’entropia non suggeriscono tunneling o DGA.  
+CLASSE: 3"
+18,3.239,0.0,1.0,0.375,0.0,2,2,hindustantin.co.in,0,0,A,0,"Il record è di tipo A, la lunghezza (18) è tipica per domini legittimi e l’entropia (3.24) è bassa, con un nome leggibile e vocale‑richiesto; non vi sono segnali di tunneling, DGA o typosquatting.  
+Pertanto il dominio appare normale.  
+CLASSE: 0"
+49,4.375,0.298,0.7020000000000001,0.234,0.0,2,3,cpu1tpu3yawq4ypi0749b43465rjwu6oacf4.attacco.test,1,2,AAAA,2,"Il qtype AAAA è tipico di record legittimi, ma la lunga etichetta casuale (len 49) con entropia 4.375 e alta percentuale di cifre indica un dominio generato automaticamente.  
+CLASSE: 2"
+31,3.708,0.0,1.0,0.31,0.0,2,3,swimmingintosecond.blogspot.com,0,0,A,0,"Il record A di una sottodirectory di *blogspot.com* è tipico di un sito legittimo; la lunghezza (31) è moderata e l’entropia (3.708) è bassa, indicando parole leggibili e non casuali. Nessuna anomalia di tipo tunneling, DGA o typo‑squatting è presente.  
+CLASSE: 0"
+14,3.236,0.0,1.0,0.385,0.0,1,2,cafegallery.ru,0,0,AAAA,0,"Il dominio è composto da parole di senso compiuto, con lunghezza moderata (14) e bassa entropia (3.236), tipiche di un nome legittimo; il record AAAA è comune per servizi normali.  
+CLASSE: 0"
+15,3.19,0.0,1.0,0.231,0.0,2,4,www.smsdolci.it,0,0,A,0,"Il record A, lunghezza moderata e bassa entropia indicano un nome leggibile e non generato casualmente; le metriche non mostrano anomalie tipiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+51,4.456,0.0,1.0,0.229,0.0,3,6,tkgurpbrrilurylwkepbeswulvkwfq.sandbox.alphasoc.xyz,1,1,TXT,2,"Il dominio è una stringa casuale di 32 caratteri (lunghezza elevata per un label), con bassa percentuale di vocali, alta entropia (4.456) e nessun pattern leggibile; il record TXT è comune nei DGA per trasferire dati, ma la lunghezza non è “estrema” come nei tunneling.  
+CLASSE: 2"
+51,4.167,0.0,1.0,0.20800000000000002,0.0,3,6,dzbnhakszqpenxohbnkutnceyqcnsf.sandbox.alphasoc.xyz,1,1,TXT,1,"TXT record con stringa di 51 caratteri quasi casuali, alta entropia e lunghezza estrema tipica di tunneling/exfiltration DNS.  
+CLASSE: 1"
+51,4.234,0.0,1.0,0.20800000000000002,0.0,3,13,innsshkkxeyqbdqqqqdyrdpaliwmro.sandbox.alphasoc.xyz,1,1,TXT,1,"Il tipo TXT, la lunghezza estremamente alta (51) e l’entropia elevata (4.23) suggeriscono un payload codificato trasportato nel nome; la sequenza di 13 consonanti rinforza l’idea di dati binari inseriti.  
+Queste caratteristiche corrispondono al pattern tipico del tunneling / data exfiltration.  
+CLASSE: 1"
+15,2.873,0.0,1.0,0.231,0.0,2,3,www.cattell.net,0,0,A,0,"Il record è di tipo A, tipico per host legittimi, e la lunghezza 15 con entropia 2.873 indica una stringa a bassa casualità.  
+Il dominio contiene una parola di senso compiuto (“cattell”), pochi sottodomini e nessun carattere speciale, tipico di traffico normale.  
+CLASSE: 0"
+51,4.43,0.0,1.0,0.188,0.0,3,10,tdwghrodczqiketckcrwyqjgoctlgm.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT di 51 caratteri con un'etichetta di 32 caratteri presenta alta entropia (4.43) e poca vocale, tipico di domini DGA piuttosto che di normali query o tunneling estremi. La struttura a pochi sottodomini e la casualità della stringa indicano un generatore automatico.  
+CLASSE: 2"
+20,3.884,0.053,0.789,0.158,0.158,1,3,xn--qajing-cfb2z.com,1,3,A,3,"Il dominio è in Punycode (xn--), tipico di IDN usati per impersonare brand; la lunghezza è moderata (20) e l’entropia (3.884) non è tipica di DGA o di tunnel di dati estremi.  
+Con questi indizi, il profilo corrisponde a un possibile imposter/typosquatting.  
+CLASSE: 3"
+47,4.6370000000000005,0.244,0.756,0.178,0.0,2,3,ddorfug3r42ri4wwj5c0gm6nh6y9bt25il.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di un dominio IP, ma la stringa di 47 caratteri è altamente casuale (entropia 4.637) e priva di pattern leggibili, con pochi sottodomini, tipico di un DGA.  
+CLASSE: 2"
+27,3.884,0.192,0.6920000000000001,0.192,0.115,1,2,xn--tickemaste-0cc3600g.com,1,3,A,3,"Il dominio è in Punycode (xn--), tipico di possibili impersonificazioni IDN; la lunghezza moderata, entropia non estrema e il record A sono coerenti con un dominio di tipo imposter/typosquatting.  
+
+CLASSE: 3"
+51,4.4,0.0,1.0,0.146,0.0,3,19,tcoysngfnqubyvnkrzmwtqzzmxwzpp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa estremamente lunga (51 caratteri) con entropia moderata (4.4) e una sequenza di 19 consonanti consecutive, tipica di payload codificati usati per tunneling/exfiltration. L’uso di TXT per trasportare dati lunghi è più coerente con la classe 1 rispetto a un DGA o a un dominio legittimo.  
+CLASSE: 1"
+51,4.165,0.0,1.0,0.188,0.0,3,17,jmamxgdusuwcuppcxhxslvysywszjb.sandbox.alphasoc.xyz,1,1,TXT,1,"Il dominio usa un record TXT, ha una stringa molto lunga (51 caratteri) con una sequenza di 17 consonanti consecutive e bassa percentuale di vocali, tipico dei payload codificati per tunneling/exfiltration. L’entropia moderata (4.165) e la struttura a più sottodomini confermano la natura di trasporto dati anziché un DGA puro.  
+CLASSE: 1"
+51,4.344,0.0,1.0,0.20800000000000002,0.0,3,15,smkcoxvgrlkmghytzkygopitewskca.sandbox.alphasoc.xyz,1,1,TXT,1,"Il tipo TXT e la lunghezza di 51 caratteri indicano un possibile canale di esfiltrazione dati.  
+L’alta entropia (4.34) e la lunga sequenza di consonanti confermano lo schema di tunneling.  
+CLASSE: 1"
+14,3.5220000000000002,0.0,1.0,0.308,0.0,1,4,handycafeq.com,1,3,A,0,"Il record A, la lunghezza moderata (14) e l’entropia bassa (3.5) indicano un nome leggibile (“handy cafe”) senza anomalie; nessun pattern tipico di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+24,3.5220000000000002,0.0,1.0,0.227,0.0,2,4,www.hollyhalstonblog.net,0,0,AAAA,0,"Il record AAAA indica un normale indirizzo IPv6 e la lunghezza (24) con entropia moderata (3.5) è tipica di domini leggibili (hollyhalstonblog). Nessuna anomalia di cifre, caratteri speciali o sotto‑domini sospetti.  
+CLASSE: 0"
+9,2.725,0.0,1.0,0.5,0.0,1,1,ituit.com,1,3,A,0,"Il record è di tipo A, la lunghezza è moderata (9) e l’entropia bassa (2,7), tipica di domini leggibili e non random; non vi sono sottodomini sospetti né caratteri speciali.  
+CLASSE: 0"
+20,3.384,0.0,1.0,0.368,0.0,1,2,businbessinsider.com,1,3,A,3,"Il record A è comune per domini legittimi, ma il nome “businbessinsider” è una chiara variante errata di “businessinsider”, con bassa entropia (3.38) e lunghezza moderata (20), tipico di typo‑squatting.  
+CLASSE: 3"
+13,3.027,0.0,1.0,0.364,0.0,2,2,google.com.ph,1,3,A,0,"Il dominio presenta lunghezza moderata, bassa entropia e utilizza un record A, tipico di richieste legittime; non ci sono pattern di esfiltrazione, DGA o typo‑squatting.  
+CLASSE: 0"
+21,3.749,0.05,0.8,0.30000000000000004,0.15,1,4,xn--euentbrit-t4a.com,1,3,A,3,"Il dominio è un IDN in punycode (xn--...), tipico di homograph/typosquatting; il record A e la lunghezza/modesta entropia non indicano tunneling né DGA.  
+La presenza di un solo sottodominio e di caratteri speciali limitati rafforza l'ipotesi di impersonificazione.  
+
+CLASSE: 3"
+26,3.931,0.16,0.68,0.16,0.16,1,3,xn--protom-lo-wcb4123f.com,1,3,A,3,"Il dominio è un record A con lunghezza moderata (26) e entropia non elevata (3.93); il prefisso xn-- segnala un IDN punycode, tipico di omografi usati per impersonare brand.  
+Queste caratteristiche rientrano nella classe 3 (Imposter / Typosquatting).  
+CLASSE: 3"
+27,4.208,0.192,0.6920000000000001,0.154,0.115,1,2,xn--hotnewhipp-z4d7507f.com,1,3,A,3,"Il dominio è in punycode (xn--), tipico di IDN usati per impersonare marchi; la stringa è lunga, con entropia media e pochi sottodomini, ma non appare come payload di tunneling né DGA.  
+Classifica più coerente è l’impersonificazione/typosquatting.  
+CLASSE: 3"
+51,4.276,0.0,1.0,0.167,0.0,3,13,fxjmsvsbkjbrcovrssdeszrycudwjz.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record è di tipo TXT e la stringa (len=51) non è estremamente lunga, ma presenta alta entropia (4.276) e una sequenza di 13 consonanti con pochissime vocali, tipica di domini DGA.  
+Pertanto rientra nella classe 2 (Malware DGA).  
+CLASSE: 2"
+48,4.478,0.217,0.783,0.152,0.0,2,8,jgjzdpdg421qavz6kgbccup60zm7vr10t9a.attacco.test,1,2,AAAA,2,"Il tipo AAAA è tipico di traffico legittimo, ma la label di 48 caratteri è molto lunga, con alta entropia (4.48) e una sequenza di consonanti di 8 caratteri, indicativi di un nome generato casualmente. Queste caratteristiche corrispondono a un comportamento tipico di domini DGA.
+
+CLASSE: 2"
+59,4.734,0.193,0.807,0.211,0.0,2,7,2orjfvq96b11agok3gr6n9bpqzuuuyga1rdihpnyvkl10k.attacco.test,1,2,A,2,"Il record è di tipo A, ma la lunghezza 59 caratteri e l’alta entropia 4.734 mostrano una stringa apparentemente casuale tipica di un DGA; pochi sottodomini e nessun carattere speciale rafforzano questa valutazione.  
+CLASSE: 2"
+36,4.308,0.176,0.8240000000000001,0.23500000000000001,0.0,2,4,8zmgajb9uxntuu4htwk56s0.attacco.test,1,2,AAAA,2,"Il record AAAA è comune per traffico legittimo, ma il primo label è una stringa molto casuale (entropy 4.3, 24 caratteri) con pochi sottodomini, tipico di DGA.  
+CLASSE: 2"
+49,4.533,0.149,0.851,0.191,0.0,2,8,ounisplrfgkfu8sxy0mxfrd9bc2nrp9o83cm.attacco.test,1,2,AAAA,2,"Il record AAAA è usuale per indirizzi legittimi, ma la lunghezza 49, l’alta entropia (4.53) e la prima etichetta quasi casuale indicano un dominio generato da algoritmo (DGA).  
+CLASSE: 2"
+51,4.324,0.0,1.0,0.20800000000000002,0.0,3,8,ryuchdzzazystqzxloguzehmnvvrwn.sandbox.alphasoc.xyz,1,1,TXT,1,"L'uso di record TXT con una stringa molto lunga (51 caratteri) e alta entropia (4.324) è tipico del tunneling/exfiltration; i sottodomini sono pochi e la bassa presenza di vocali rende la stringa poco leggibile.  
+CLASSE: 1"
+26,3.609,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,77.224.141.69.in-addr.arpa,0,0,AAAA,0,"Il dominio è un tipico record di reverse DNS (in‑addr.arpa) con qtype AAAA, lunghezza moderata e bassa entropia, tipico del traffico legittimo.  
+
+CLASSE: 0"
+27,3.75,0.5,0.455,0.182,0.045,5,3,83.156.174.213.in-addr.arpa,0,0,A,0,"Il dominio è un tipico nome di reverse‑lookup (IP in‑addr.arpa) con qtype A, lunghezza moderata e entropia bassa, tipico del traffico legittimo. Nessuna caratteristica indica tunneling, DGA o typosquatting.  
+CLASSE: 0"
+29,4.254,0.179,0.714,0.214,0.107,1,3,xn--tutialspoint-8gc0915h.com,1,3,A,3,"Il record è di tipo A, di lunghezza media (29) con entropia 4.25 e contiene un prefisso punycode “xn--”, tipico di domini IDN usati per ombrare brand legittimi; la stringa ricorda “tutorialspoint” con una lieve modifica e aggiunta di caratteri casuali.  
+
+CLASSE: 3"
+51,4.314,0.0,1.0,0.20800000000000002,0.0,3,19,bjotiopjhhjrynmqllgqqpdpsagnuz.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e contiene una stringa estremamente lunga (51 caratteri) con alta entropia (4.3) e una lunga sequenza di consonanti, tipiche dei payload codificati usati per tunneling/exfiltration. La lunghezza e il tipo di record superano di gran lunga i normali domini legittimi, indicando un possibile canale di esfiltrazione dati.  
+CLASSE: 1"
+67,4.553,0.262,0.738,0.185,0.0,2,5,20pruxdndp32ftta92r64jsfq3j0ofj6brahf4nlu921afvao1pgt2.attacco.test,1,2,A,1,"L'uso di un record A con un'etichetta estremamente lunga (≈53 caratteri), alta entropia (4.55) e alta percentuale di cifre indica un payload codificato inserito nel dominio, tipico di tunneling/exfiltration.  
+Queste feature non corrispondono a un normale dominio né a un tipico DGA breve, ma a un caso di trasporto dati via DNS.  
+
+CLASSE: 1"
+51,4.312,0.0,1.0,0.271,0.0,3,5,ebcuvmxhdepavxbelaryifvfobdnjz.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT di 51 caratteri con alta entropia (4.312) e un'etichetta iniziale di 31 lettere apparentemente casuali è tipico di domini generati da DGA piuttosto che di payload di tunneling (che tendono ad essere più lunghi e includere caratteri speciali). La struttura a pochi sottodomini e l'assenza di cifre o simboli rafforza la classificazione DGA.  
+CLASSE: 2"
+51,4.263,0.0,1.0,0.167,0.0,3,20,okowvbjzvdyhdwfhymyfdjloxxwrgw.sandbox.alphasoc.xyz,1,1,TXT,2,"Il tipo TXT e la lunghezza di 51 caratteri con entropia 4.26 indicano un dominio con dati codificati molto aleatori, tipico dei DGA piuttosto che di tunneling “estremo”.  
+CLASSE: 2"
+26,3.7960000000000003,0.12,0.76,0.24,0.12,1,3,xn--mataaimall-vrb552b.com,1,3,A,3,"Il dominio è in punycode (xn--), tipico di IDN usati per impersonare brand; la lunghezza e l’entropia sono nella norma per un nome legittimo, ma la presenza di “xn--” suggerisce un tentativo di typosquatting.  
+CLASSE: 3"
+52,4.609,0.16,0.84,0.28,0.0,2,5,uerhs5delaxq9xxzksogm1rai8fmbeuvz7e43t1.attacco.test,1,2,AAAA,2,"Il record AAAA è legittimo, ma la lunghezza 52 e l’alta entropia 4.6 della prima etichetta indicano una stringa casuale tipica di DGA, non un nome di dominio leggibile.  
+Nessun carattere speciale o punycode, pochi sottodomini → classe 2.  
+
+CLASSE: 2"
+51,4.327,0.0,1.0,0.25,0.0,3,8,noenvccginipopcywblzlajzkafvtj.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e contiene una stringa molto lunga (51 caratteri) con alta entropia (4.33), tipica di payload codificati usati per tunneling / esfiltrazione. La combinazione di lunghezza estrema e randomicità indica un canale di dati nascosto.
+
+CLASSE: 1"
+12,3.418,0.091,0.909,0.364,0.0,1,3,a2rchive.org,1,3,A,3,"Il record A, la lunghezza breve (12) e l’entropia bassa (3.4) sono tipici di domini legittimi, ma la presenza di un numero al posto della “c” (“a2rchive”) imita chiaramente il brand “archive.org”.  
+Questa sostituzione suggerisce un possibile caso di typosquatting.  
+
+CLASSE: 3"
+59,4.497,0.228,0.772,0.211,0.0,2,6,5ycn5pancbwvsu2e6zxmcnculfle76y13az47jnoas47n4.attacco.test,1,2,AAAA,2,"La presenza di un record AAAA (tipico di traffico legittimo) è contrastata dalla lunghezza elevata (59) e dall’alta entropia (4.5) della prima etichetta, che appare come una stringa casuale priva di parole di senso compiuto. Queste caratteristiche corrispondono al profilo di un dominio generato da DGA piuttosto che a tunneling (che userebbe TXT) o a typosquatting.
+
+CLASSE: 2"
+13,3.7,0.083,0.917,0.25,0.0,1,2,varzesh3d.com,1,3,A,0,"Il record è di tipo A, la lunghezza (13) è tipica di domini legittimi e l’entropia (3.7) è bassa, con pochi sottodomini e nessun carattere speciale. Non ci sono indicazioni di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+34,4.22,0.156,0.844,0.188,0.0,2,5,qiv51veppk7c8pw2lkrlg.attacco.test,1,2,AAAA,0,"Il record AAAA indica tipicamente un normale puntamento a un indirizzo IPv6; la lunghezza di 34 caratteri e l’entropia di 4,22 non sono tipiche di domini generati automaticamente né di payload codificati. Con pochi sottodomini e assenza di sequenze anomale, appare un dominio legittimo.  
+CLASSE: 0"
+21,3.785,0.1,0.75,0.15,0.15,1,4,xn--bnggod-fxa90z.com,1,3,A,3,"Il dominio è un punycode (xn--...), tipico degli IDN usati per typosquatting; il record A è legittimo, ma la presenza di caratteri speciali e l’entropia moderata su una stringa lunga suggeriscono un tentativo di imitazione piuttosto che traffico normale.  
+
+CLASSE: 3"
+51,4.327,0.0,1.0,0.229,0.0,3,8,mjiwdqbntbwiagxbxmhlobwyddeitf.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT con una stringa di 51 caratteri, alta entropia (4.3) e una sequenza di consonanti di 8 indica un payload codificato tipico del tunneling.  
+Queste caratteristiche corrispondono alla classe di trasporto dati/​exfiltration.
+
+CLASSE: 1"
+49,4.451,0.277,0.723,0.213,0.0,2,3,lny74ljx2x1i6sxj3u1oc4sc89aag9n9je0h.attacco.test,1,2,A,2,"Record A, ma il sottodominio è molto lungo (≈38 caratteri) con alta entropia (4.45) e ~28 % di cifre, tipico di domini generati da DGA. Nessuna evidenza di tunneling TXT né di imitazione di brand.  
+CLASSE: 2"
+51,4.358,0.0,1.0,0.229,0.0,3,8,iiwhjkogvfwlaynnzdslsekwvomzzf.sandbox.alphasoc.xyz,1,1,TXT,2,"TXT record with a 51‑char random label, high entropy (4.36) and an 8‑consonant run indicate a generated, nonsensical sub‑domain rather than a purposeful payload. This matches typical DGA behavior.  
+CLASSE: 2"
+51,4.5,0.0,1.0,0.20800000000000002,0.0,3,10,vgmqyoexcdbgtwwjyuqftcmgxktyia.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT è usato per trasportare dati; la lunghezza (51 caratteri, etichetta di 31) è anormalmente elevata e l’entropia 4.5 indica alta casualità, tipico di tunneling / data‑exfiltration.  
+CLASSE: 1"
+51,4.314,0.0,1.0,0.229,0.0,3,10,lwjimmjgqbjgipopivialwltsbgkww.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con entropia elevata (4.314) e una lunga sequenza di consonanti, tipico dei canali di tunneling DNS.  
+Queste caratteristiche corrispondono alla Regola 1 (Tunneling / Data Exfiltration).  
+
+CLASSE: 1"
+51,4.358,0.0,1.0,0.229,0.0,3,9,nxvkecmbandfkgioxocwundzdsywkj.sandbox.alphasoc.xyz,1,1,TXT,2,"Il dominio usa un record TXT (spesso impiegato per tunneling), ma la lunghezza di 51 caratteri non è estrema; l’alta entropia (4,36) e la sequenza di 30 caratteri casuali nel primo label indicano una stringa tipica di DGA piuttosto che un payload codificato.  
+
+CLASSE: 2"
+24,3.7720000000000002,0.182,0.682,0.136,0.136,2,3,xn--gmake-mrc0811c.co.kr,1,3,A,3,"Record A con lunghezza moderata (24) ed entropia non estrema (3.77) non indica tunneling né DGA; la presenza del prefisso punycode (xn--) suggerisce un dominio IDN usato per ombrare/un brand → possibile typosquatting.  
+CLASSE: 3"
+8,3.0,0.0,0.857,0.28600000000000003,0.14300000000000002,1,1,m-tel.ru,0,0,AAAA,0,"Il record AAAA indica un normale puntamento IPv6; la lunghezza breve (8) e l’entropia bassa (3.0) suggeriscono un nome leggibile e non casuale, tipico di domini legittimi.  
+
+CLASSE: 0"
+22,3.55,0.1,0.9,0.30000000000000004,0.0,2,3,n4xoe8sfk.attacco.test,1,2,AAAA,0,"Il record AAAA è tipico di risoluzioni IP legittime; la lunghezza moderata (22) e l’entropia 3.55 non mostrano la randomicità estrema tipica di DGA o tunneling, e il dominio contiene termini leggibili (attacco.test).  
+CLASSE: 0"
+51,4.486,0.0,1.0,0.25,0.0,3,8,fyqsiatfhwvzrigvwjrvvbueddoefw.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.486), tipica di payload codificati usati per tunneling / esfiltrazione dati. La struttura a pochi sottodomini e l'assenza di caratteri speciali conferma questa interpretazione.  
+CLASSE: 1"
+22,3.823,0.15,0.85,0.25,0.0,2,2,ujz8k9m6q.attacco.test,1,2,AAAA,2,"Il qtype AAAA è comune per record legittimi, ma la lunghezza moderata (22) con entropia 3.823 e il sottodominio casuale “ujz8k9m6q” indicano un pattern tipico di DGA più che traffico normale.  
+CLASSE: 2"
+49,4.558,0.191,0.809,0.149,0.0,2,7,ubw5iw97bk9bhyyd6pqghvlw6xlp8l5sagv6.attacco.test,1,2,A,2,"La presenza di un record di tipo A, la lunghezza moderata (49) e l’entropia elevata (4.558) indicano un nome di dominio apparentemente casuale, tipico dei DGA piuttosto che di tunneling (che userebbe TXT) o di typo‑squatting. Il sotto‑dominio è un blocco quasi incomprensibile di lettere e cifre, coerente con una generazione automatica di domini.
+
+CLASSE: 2"
+26,3.642,0.0,1.0,0.24,0.0,1,5,firstscentconstultancy.com,0,0,A,0,"Il record A è tipico di host web; la lunghezza (26) e l’entropia (3.64) rientrano nella norma per domini leggibili, senza cifre né caratteri speciali.  
+Non emergono segnali di tunneling, DGA o typo su brand noto.  
+
+CLASSE: 0"
+51,4.569,0.0,1.0,0.229,0.0,3,8,gthjuluvcyhnqbteixfexzkqjmhorr.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.57) e un sottodominio lunghissimo e casuale indica tipicamente un payload codificato usato per tunneling/exfiltration. La lunghezza estrema e il tipo TXT corrispondono alla classe 1.  
+CLASSE: 1"
+32,3.602,0.037,0.852,0.296,0.111,5,2,sakura.xn--n-6fa.jp.sakura.ne.jp,1,3,A,0,"Il record è di tipo A, la lunghezza (32) e l’entropia (3,6) sono tipiche di domini legittimi; la presenza di punycode è normale per IDN giapponesi e non indica anomalie.  
+
+CLASSE: 0"
+63,4.8260000000000005,0.23,0.77,0.197,0.0,2,6,7hh1gwzo4mqa3xkjykg6c6yca7o41vesjnbed1d9luwpg0i7h3.attacco.test,1,2,A,2,"La label iniziale è una stringa alfanumerica lunga (63 caratteri) con alta entropia (4.826) e nessun pattern leggibile, tipica dei domini generati da DGA; l’uso di un record A è coerente con il traffico di malware.  
+
+CLASSE: 2"
+17,3.41,0.062,0.75,0.188,0.188,1,2,xn--tr1lo-cic.com,1,3,A,3,"Il dominio è in punycode (xn--...), tipico di IDN usati per impersonare brand; il record A è legittimo, ma la lunghezza moderata (17) e l’entropia media (3.41) non indicano tunneling né DGA.  
+Classificazione basata sulla presenza di punycode → possibile typosquatting/impersonazione.  
+
+CLASSE: 3"
+24,4.022,0.08700000000000001,0.783,0.13,0.13,1,3,xn--br1htonclick-0df.com,1,3,A,3,"Il record è di tipo A (normale) ma il dominio è in punycode (xn--), tipico di IDN usati per impersonificazione; la lunghezza 24 e l’entropia 4,0 indicano un nome artificiale non casuale.  
+CLASSE: 3"
+19,3.471,0.111,0.722,0.222,0.167,1,4,xn--archv-n0a0o.org,1,3,A,3,"Il record A, lunghezza moderata (19) e entropia media (3.47) indicano un dominio tipico, mentre il prefisso punycode “xn--archv‑n0a0o” è una variante omofona di “archive.org”.  
+Questa struttura è tipica di un dominio di impersonificazione/typosquatting.  
+CLASSE: 3"
+23,4.056,0.227,0.636,0.136,0.136,1,4,xn--buzzfd-t3a4381d.com,1,3,A,3,"Il record è di tipo A, ma il dominio è in punycode (xn--) con una sequenza semi‑casuale di lettere e cifre, senza parole leggibili, tipica di domini creati per impersonificazione/typosquatting. Lunghezza (23) ed entropia (4.06) rientrano nel range comune per IDN usati a scopo ingannevole.  
+CLASSE: 3"
+51,4.43,0.0,1.0,0.188,0.0,3,9,mwcgnokjfcrxrcwasjtctubtqvgzwo.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e contiene una stringa molto lunga (51 caratteri) con alta entropia (4.43) e poca vocali, tipica di payload codificati per DNS tunneling.  
+Queste caratteristiche corrispondono alla regola 1 (Tunneling / Data Exfiltration).  
+
+CLASSE: 1"
+25,3.429,0.45,0.5,0.2,0.05,5,3,1.152.73.151.in-addr.arpa,0,0,AAAA,0,"Il record AAAA per un dominio di reverse DNS (in‑addr.arpa) ha lunghezza media e entropia moderata, tipiche di domini legittimi; nessuna anomalia strutturale o uso di TXT per payload.  
+CLASSE: 0"
+10,2.646,0.0,1.0,0.222,0.0,1,3,rlfagr.org,1,3,A,0,"Il record è di tipo A, con lunghezza moderata (10) e bassa entropia (2.646), tipici di domini legittimi e non di payload o DGA; la composizione di vocali e consonanti non suggerisce una stringa casuale né un dominio imitativo.  
+CLASSE: 0"
+18,3.308,0.0,1.0,0.438,0.0,2,2,mx.samaraintour.ru,0,0,A,0,"Il record A per un dominio di lunghezza media (18) con entropia moderata (3.3) e solo due sottodomini indica un nome plausibile (mx.samaraintour.ru) tipico di un servizio legittimo. Non presenta le caratteristiche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+26,3.873,0.0,1.0,0.375,0.0,2,4,www.eastcountymagazine.org,0,0,A,0,"Il record è di tipo **A**, la lunghezza è moderata (26) e l’entropia è bassa (≈3.9), tipica di parole leggibili; i sottodomini sono pochi e il dominio contiene termini comprensibili (eastcounty, magazine).  
+Non emergono pattern di tunneling, DGA o typo‑squatting.
+
+CLASSE: 0"
+8,2.75,0.14300000000000002,0.857,0.429,0.0,1,1,ebay5.de,1,3,A,3,"Il dominio usa un record A di lunghezza breve (8) con bassa entropia (2.75) tipica di domini legittimi, ma contiene il brand “ebay” con una leggera modifica (cifra “5”), tipica di imposter/typosquatting.  
+CLASSE: 3"
+51,4.234,0.0,1.0,0.25,0.0,3,9,lrmophiaorszplhnjcunzbzegfccah.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record TXT è lungo 51 caratteri con entropia 4.23, suggerendo una stringa moderatamente casuale più tipica di un dominio generato automaticamente che di un payload di tunneling.  
+L’alta sequenza di consonanti, la bassa percentuale di vocali e i pochi sottodomini indicano un nome DGA.  
+CLASSE: 2"
+36,4.427,0.176,0.8240000000000001,0.176,0.0,2,4,hzy32rwj6qsls4vqpj4uv8i.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di servizi legittimi, ma la label iniziale è una stringa casuale di 22 caratteri con entropia 4.4 e contiene numeri, indicando un alto grado di casualità tipico dei DGA; la lunghezza non è estrema e non vi sono caratteri speciali.  
+
+CLASSE: 2"
+50,4.541,0.25,0.75,0.229,0.0,2,4,aoh87v89en4qo9khsboi54goqq7dx32wl5bwk.attacco.test,1,2,AAAA,2,"Il record è di tipo AAAA (non TXT), quindi non tipico di tunneling; la lunghezza di 50 caratteri e l’entropia elevata (4.54) indicano una stringa pseudo‑casuale, tipica di DGA, con pochi sottodomini e senza caratteri speciali.  
+CLASSE: 2"
+51,4.419,0.0,1.0,0.292,0.0,3,7,kmacujtlbqutajauniknymvwnagofg.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la sotto‑stringa è lunga 33 caratteri con entropia 4.4, tipica di payload codificati usati per tunneling/exfiltration; la bassa percentuale di vocali e l’assenza di caratteri speciali rafforzano l’ipotesi.  
+CLASSE: 1"
+66,4.853,0.25,0.75,0.125,0.0,2,7,qyxdq561gnr459hsh7xk6zssewgmgrmc02di24bboc1h3cuk59ykl.attacco.test,1,2,AAAA,2,"Il tipo AAAA è legittimo, ma il primo label è una stringa lunghissima (66 caratteri), con alta entropia (4.85) e predominanza di lettere/cifre casuali, tipica dei domini generati da DGA; i pochi sottodomini e l'assenza di pattern riconoscibili escludono impersonation o tunneling.  
+
+CLASSE: 2"
+51,4.299,0.0,1.0,0.167,0.0,3,15,eblhpmmfncsywkrlubmxeznbkrmddh.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT è molto lungo (51 caratteri) con alta entropia (4.3) e una sequenza di 15 consonanti consecutive, tipico di payload codificati inseriti in un dominio per tunneling/exfiltration.  
+CLASSE: 1"
+32,4.188,0.133,0.867,0.233,0.0,2,7,d4yyzrxsx2vmui4mu5l.attacco.test,1,2,A,2,"Il record è di tipo A (tipico per host legittimi), ma il primo label è una stringa di 20 caratteri quasi casuale, con alta sequenza di consonanti, entropia moderata (4.188) e presenza di cifre, tipica dei domini generati da DGA. Non presenta lunghezze estreme né uso di TXT, né imitazione di brand.
+
+CLASSE: 2"
+26,3.58,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,26.65.144.186.in-addr.arpa,0,0,A,0,"Il qtype A su un nome “in‑addr.arpa” è tipico di reverse‑lookup, la lunghezza è moderata e l’entropia (3.58) è bassa, coerente con un dominio legittimo e strutturato.  
+
+CLASSE: 0"
+24,3.7720000000000002,0.043000000000000003,0.9570000000000001,0.261,0.0,1,3,adnetw0rkperformancc.com,1,3,A,3,"Il record è di tipo A con lunghezza media (24) e entropia moderata (3.77), ma il nome contiene una chiara alterazione (“0” al posto di “o” e omissione di lettere) tipica di typo‑squatting.  
+
+CLASSE: 3"
+27,3.63,0.5,0.455,0.182,0.045,5,3,114.50.157.189.in-addr.arpa,0,0,A,0,"Il dominio è un puntatore reverse in‑addr.arpa; qtype A, lunghezza moderata e bassa entropia indicano un record DNS legittimo.  
+CLASSE: 0"
+14,3.379,0.0,1.0,0.385,0.0,1,2,grupobusca.com,0,0,AAAA,0,"Il record AAAA è comune per host legittimi; la lunghezza moderata (14) e l’entropia bassa (3.38) mostrano poca casualità, con una parola comprensibile (grupobusca).  
+CLASSE: 0"
+46,4.5280000000000005,0.20500000000000002,0.795,0.25,0.0,2,7,8ux65bwiq3yl44ncrwrjle8jln0ekau2u.attacco.test,1,2,AAAA,2,"Il tipo AAAA indica un record legittimo, ma la lunghezza estrema (46) del primo label, l’alta entropia (4.53) e la sequenza di consonanti (7) suggeriscono un nome generato casualmente tipico di DGA piuttosto che traffico normale.  
+
+CLASSE: 2"
+51,4.48,0.0,1.0,0.20800000000000002,0.0,3,9,unjjzkisjeynymqjdvrixdiwhpfhwk.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa di 51 caratteri, molto più lunga del tipico nome host DGA e con alta entropia (4.48), tipica dei payload codificati usati per tunneling.  
+La combinazione di lunghezza estrema, tipo TXT e entropia elevata indica probabilmente un canale di esfiltrazione.  
+
+CLASSE: 1"
+51,4.464,0.0,1.0,0.188,0.0,3,9,nrpniirwpxzlexkdgqmxuvmqhrqmfz.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.46) e scarsa presenza di vocali, tipica di payload codificati usati per tunneling o esfiltrazione.  
+
+CLASSE: 1"
+27,3.482,0.5,0.455,0.182,0.045,5,3,225.25.201.190.in-addr.arpa,0,0,AAAA,0,"Il tipo di record AA/AAAA è tipico per i reverse‑lookup di indirizzi IP e, insieme a una lunghezza moderata (27) e a un’entropia di 3,48 (bassa‑media), non indica comportamenti anomali. La presenza di molti numeri e pochi caratteri speciali è coerente con un dominio legittimo di tipo in‑addr.arpa.  
+CLASSE: 0"
+11,2.914,0.0,1.0,0.333,0.0,2,3,idpi.spb.ru,0,0,AAAA,0,"Le metriche mostrano una lunghezza moderata, bassa entropia (2.9) e nessun carattere sospetto; il record AAAA è tipico di host legittimi, con pochi sottodomini e vocale% normale.  
+CLASSE: 0"
+18,3.5300000000000002,0.0,1.0,0.25,0.0,2,4,www.joshgroban.com,0,0,AAAA,0,"Il record AAAA è tipico di domini legittimi; la lunghezza (18) e l’entropia (3.53) sono basse, indicando una stringa leggibile e non casuale; i pochi sottodomini e l’assenza di cifre o caratteri speciali confermano la normalità.  
+
+CLASSE: 0"
+51,4.338,0.0,1.0,0.20800000000000002,0.0,3,14,stlanbpaxdqzrggmbrjfxqaqufircp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.338) e una sequenza di 14 consonanti indica un payload codificato tipico del tunneling; la lunghezza estrema e il qtype TXT lo distinguono da un semplice DGA.  
+CLASSE: 1"
+51,4.196,0.0,1.0,0.25,0.0,3,6,pdatpdjkjagumzsoachngkobmlhpuj.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.2) e aspetto casuale, tipico del tunneling dati. La presenza di un unico sottodominio lungo e l'uso di TXT suggeriscono esfiltrazione piuttosto che un DGA tradizionale.  
+CLASSE: 1"
+13,3.239,0.182,0.8180000000000001,0.182,0.0,2,2,g00qle.com.my,1,3,A,3,"Il record A e la lunghezza media con entropia moderata suggeriscono un dominio normale, tuttavia l’uso di “00” al posto delle “oo” in “g00qle” indica una tipica sostituzione per imitare il brand Google.  
+
+CLASSE: 3"
+50,4.443,0.188,0.812,0.146,0.0,2,10,rw4jmul6wucb8rktpknkjzmad6883pm3jt7xl.attacco.test,1,2,AAAA,1,"Il record AAAA è legittimo, ma la lunghezza estrema (50 caratteri) e l’alta entropia (4.44) indicano un payload codificato tipico del DNS tunneling/più che un semplice DGA.  
+CLASSE: 1"
+75,4.848,0.301,0.6990000000000001,0.137,0.0,2,5,obfylut8w18e07q9v0tehdsd8c6qqw5n5wdvd0gx3666e2am5l11psklk0jwf4.attacco.test,1,2,A,2,"qtype A è comune, ma la lunghezza estrema (75) e l’entropia 4.85 suggeriscono un nome generato casualmente.  
+Pochi sottodomini e assenza di parole leggibili puntano a un DGA.  
+CLASSE: 2"
+26,3.686,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,173.29.55.187.in-addr.arpa,0,0,A,0,"Il record A per un dominio reverse‑DNS contiene l’indirizzo IP in forma leggibile; la lunghezza (26) e l’entropia (3.686) sono tipiche di stringhe con molti numeri e pochi caratteri casuali, senza pattern di tunneling o DGA.  
+
+CLASSE: 0"
+10,2.922,0.0,1.0,0.444,0.0,1,1,carena.com,0,0,A,0,"Il record è di tipo **A**, la lunghezza è moderata (10) e l’entropia è bassa (≈2.9), tipica di parole leggibili; non ci sono sequenze di caratteri sospette né punteggi alti di cifre o simboli.  
+Queste caratteristiche corrispondono a un dominio legittimo e a traffico normale.  
+
+CLASSE: 0"
+23,3.915,0.095,0.905,0.23800000000000002,0.0,2,4,gk7m1iyjrf.attacco.test,1,2,AAAA,2,"Il record AA​AA è tipico di traffico legittimo, ma la label “gk7m1iyjrf” (len 23, entropia ≈ 3.9, solo 2 sottodomini) appare casuale e ad alta entropia, caratteristica dei domini DGA.  
+
+CLASSE: 2"
+29,3.949,0.148,0.852,0.185,0.0,2,6,3r2t8lnmksnuh3cw.attacco.test,1,2,AAAA,0,"Il record AAAA indica una normale risoluzione IPv6; la lunghezza (29) e l’entropia (≈3.95) sono moderate, con pochi sottodomini e nessun carattere speciale, tipici di un dominio legittimo.  
+CLASSE: 0"
+14,3.325,0.077,0.923,0.385,0.0,1,3,eventb4ite.com,1,3,A,3,"Record A con lunghezza moderata (14) ed entropia 3.3, tipica di domini legittimi; però la stringa “eventb4ite” è una variante con cifra di “eventbrite”, suggerendo un tentativo di impersonificazione.  
+CLASSE: 3"
+51,4.374,0.0,1.0,0.271,0.0,3,8,bsiaskdtxnhbusrvardeqlzduiowgt.sandbox.alphasoc.xyz,1,1,TXT,1,"La presenza di un record TXT con una stringa molto lunga (51 caratteri) e un’entropia elevata (4.374) è tipica di tunneling/exfiltration, dove i dati vengono codificati in un unico label. La bassa percentuale di vocali e l’alto numero di consonanti rafforzano l’aspetto di una sequenza casuale più che di un nome leggibile.
+
+CLASSE: 1"
+32,4.117,0.20700000000000002,0.793,0.34500000000000003,0.0,3,2,129684.domains.domaingateway.com,0,0,AAAA,0,"Il record AAAA è tipico di servizi legittimi; la lunghezza di 32 caratteri e l’entropia 4.1 sono relativamente basse, indicando un nome strutturato (numero‑prefisso + “domains.domaingateway.com”) piuttosto che una stringa casuale o un payload.  
+
+CLASSE: 0"
+14,3.182,0.083,0.917,0.417,0.0,2,2,go0ogle.com.ar,1,3,A,3,"Il dominio è un A record di lunghezza moderata (14) con entropia relativamente bassa (3.18) e contiene una digit “0” al posto della “o”, tipico di typo‑squatting; nessuna anomalia strutturale o payload lungo.  
+
+CLASSE: 3"
+21,3.499,0.158,0.842,0.316,0.0,2,2,asj0bi26.attacco.test,1,2,AAAA,0,"Il record è di tipo AAAA (indirizzo IPv6) con lunghezza moderata (21) e entropia media (3.5), tipico di domini legittimi; la presenza di un sottodominio apparentemente casuale non è sufficiente a indicare tunneling o DGA.  
+CLASSE: 0"
+75,4.865,0.247,0.753,0.20500000000000002,0.0,2,4,mtc18bjlam6ifklsu8ktors7564sw3owezv5ubavd0bxmtaf4d97g120mqo1en.attacco.test,1,2,A,1,"Stringa di 75 caratteri con alta entropia (4.865) e quasi nessuna vocale, tipica di un payload codificato; il record A è atipico per domini così lunghi, indicando possibile uso per tunneling/exfiltration.  
+CLASSE: 1"
+13,2.873,0.0,1.0,0.417,0.0,1,1,homedepod.com,1,3,A,0,"Il record è di tipo A, la lunghezza (13) e l’entropia (2.87) sono tipiche di parole leggibili (es. “homedepod”), senza sequenze di caratteri anomale né sottodomini sospetti. Nessuna caratteristica indica tunneling, DGA o typosquatting.  
+CLASSE: 0"
+25,3.559,0.45,0.5,0.2,0.05,5,3,2.225.167.85.in-addr.arpa,0,0,AAAA,0,"Il dominio è un reverse‑DNS legittimo (IP → in‑addr.arpa), con qtype AAAA tipico di record di indirizzo, lunghezza moderata e entropia bassa, senza pattern di payload o stringhe casuali. Le caratteristiche non mostrano anomalie né tecniche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+29,3.9779999999999998,0.074,0.926,0.296,0.0,2,5,pfqqh6kgcugoil9a.attacco.test,1,2,AAAA,2,"AA​AAA è un record legittimo, ma il sottodominio “pfqqh6kgcugoil9a” è una stringa casuale di 17 caratteri, alta entropia (3.98) e pochi livelli, tipico di DGA.  
+CLASSE: 2"
+25,3.273,0.0,1.0,0.273,0.0,3,3,blogspot.xom.blogspot.com,1,3,A,0,"The A record and moderate length (25) with low entropy (3.27) point to a readable, human‑chosen name. No high‑entropy strings, digits or special chars are present, fitting normal web traffic.  
+CLASSE: 0"
+51,4.232,0.0,1.0,0.188,0.0,3,12,fygtfxdvmyrvacokvnldqrvoxocyyp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la stringa è molto lunga (51 caratteri) con alta entropia (4.23) e poche vocali, tipico dell’uso di TXT per trasportare dati codificati. La struttura con pochi sottodomini e sequenze di consonanti estese indica un possibile canale di tunneling/exfiltration.
+
+CLASSE: 1"
+54,4.44,0.154,0.846,0.17300000000000001,0.0,2,11,vo5khq5svehj6s9ejspu49c5yfpg8insyqvgmtjjh.attacco.test,1,2,AAAA,2,"Il record AAAA è legittimo, ma la label iniziale è una stringa lunga (≈44 caratteri) con alta entropia (4.44) e molte consonanti consecutive, tipica di domini generati casualmente da DGA.  
+Non presenta la lunghezza estrema dei tunnel né somiglianze a brand noti, quindi rientra nella categoria Malware DGA.  
+
+CLASSE: 2"
+17,3.2640000000000002,0.0,1.0,0.375,0.0,1,5,researchgzate.net,1,3,A,0,"Il record è di tipo A, tipico per host legittimi; la lunghezza (17) è media e l’entropia (3,264) non è elevata, suggerendo un nome leggibile più che casuale. Non ci sono caratteristiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+67,4.5760000000000005,0.2,0.8,0.246,0.0,2,4,4uyl05pluvwaa3viv14bdklijp5apvn3s3s7wkn67gllaziieti0pg.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di traffico legittimo, ma la label di 67 caratteri è molto lunga, con alta entropia (4.576) e quasi nessuna vocale, tipica di domini generati casualmente da DGA.  
+CLASSE: 2"
+51,4.295,0.0,1.0,0.229,0.0,3,8,zrixklzgbllazusvjmrizsivrmaqnk.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e alta entropia (4.295), tipiche di payload codificati usati per tunneling o esfiltrazione dati. La struttura casuale e la scarsa presenza di vocali rinforzano l’ipotesi di utilizzo per trasporto di dati anziché di dominio legittimo.
+
+CLASSE: 1"
+19,3.577,0.0,0.9410000000000001,0.353,0.059000000000000004,2,3,www.free-sudoku.com,0,0,AAAA,0,"Il record AAAA indica un normale indirizzo IPv6, la lunghezza (19) e l’entropia (3.58) sono tipiche di parole leggibili (free‑sudoku) con un solo trattino; nessuna anomalia di lunghezza estrema o alta casualità.  
+Quindi rientra nel traffico legittimo.  
+CLASSE: 0"
+48,4.346,0.23900000000000002,0.761,0.23900000000000002,0.0,2,5,s4os7s15116zb90p1cpqreejmxhvoz1iaso.attacco.test,1,2,A,2,"Il record è di tipo A (normale), ma il primo label è molto lungo (≈32 caratteri) e presenta alta entropia (4.346) con sequenze di consonanti e numeri, tipico di domini generati da DGA. La presenza di soli 2 sottodomini e l'assenza di record TXT riducono la probabilità di tunneling.
+
+CLASSE: 2"
+28,3.669,0.522,0.435,0.17400000000000002,0.043000000000000003,5,3,125.194.243.201.in-addr.arpa,0,0,A,0,"Il dominio è una reverse‑lookup tipica (IP → in‑addr.arpa), usa record A, ha lunghezza moderata e bassa entropia, con alta percentuale di cifre tipica dei puntatori IP. Non presenta anomalie strutturali né pattern tipici di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+16,3.625,0.0,1.0,0.333,0.0,1,3,esprittravel.com,0,0,A,0,"Il record A e la lunghezza moderata (16) con bassa entropia (3.6) indicano un dominio leggibile e plausibile; non vi sono sequenze anomale di caratteri né uso di TXT.  
+CLASSE: 0"
+20,3.384,0.0,1.0,0.47100000000000003,0.0,3,2,okfan.en.alibaba.com,0,0,AAAA,0,"Il record AAAA indica un normale lookup IPv6; la lunghezza (20) e l’entropia bassa (3.38) corrispondono a parole leggibili (okfan, en, alibaba) e non a stringhe casuali o payload.  
+Non ci sono caratteristiche di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+68,4.8260000000000005,0.258,0.742,0.167,0.0,2,4,9ibpzj3vqibbn6rw2saww3q08usmx0hysc4f9n35v9ko1w5daes93qs.attacco.test,1,2,AAAA,1,"La presenza di un record AAAA con un nome di dominio estremamente lungo (68 caratteri) e alta entropia (≈4.8) indica che la stringa è usata per trasportare dati codificati piuttosto che per un normale hostname. L’estrema lunghezza e la casualità del sottodominio sono tipiche dei meccanismi di tunneling/exfiltration.  
+CLASSE: 1"
+43,4.246,0.195,0.805,0.22,0.0,2,5,ybeslfdr30cw0huwj85ejul3lcl9e0.attacco.test,1,2,AAAA,2,"Il record AAAA è legittimo, ma il sotto‑dominio di 43 caratteri è una stringa apparentemente casuale (entropy 4.2, 20 % cifre) tipica dei domini generati da DGA, non di traffico normale né di tunneling TXT.  
+CLASSE: 2"
+13,3.027,0.0,1.0,0.5,0.0,1,2,ikinopoisk.ru,1,3,A,0,"Record A, lunghezza moderata (13) e bassa entropia (3.0) con buona presenza di vocali, nessun pattern tipico di tunneling o DGA.  
+CLASSE: 0"
+25,3.589,0.45,0.5,0.2,0.05,5,3,55.66.77.201.in-addr.arpa,0,0,A,0,"Il qtype A per un nome reverse (in‑addr.arpa) è tipico; la lunghezza (25) e l’entropia (3.589) sono moderate, con alta percentuale di cifre dovuta all’indirizzo IP, non indicano stringhe casuali né payload lunghi.  
+
+CLASSE: 0"
+25,3.943,0.08700000000000001,0.783,0.261,0.13,2,3,detail.xn--tml-jpa02a.com,1,3,A,3,"Record A di tipo normale, ma il dominio usa punycode (xn--), tipico di omonimi IDN/typosquatting; lunghezza e entropia non estreme, indicando imitazione di brand.  
+CLASSE: 3"
+65,4.746,0.17500000000000002,0.8250000000000001,0.159,0.0,2,5,lcpz0fp97di3nyyfl5ufgmqof68jrlz81wvlifjagtukpl6mp8kt.attacco.test,1,2,A,2,"Tipo di record A normale, ma la lunghezza 65 e l'entropia 4.746 indicano un nome altamente casuale tipico di DGA.  
+Nessun uso di TXT e la presenza di pochi sottodomini conferma la classificazione.  
+CLASSE: 2"
+49,4.434,0.277,0.723,0.17,0.0,2,5,4hey03b2q4w8jnlyde7m2y8w47ecitjbkq24.attacco.test,1,2,A,2,"Record A è normale, ma il sotto‑dominio di 49 caratteri è casuale, alta entropia (4.43) e ricco di cifre, senza parole riconoscibili, tipico di DGA.  
+CLASSE: 2"
+40,4.193,0.079,0.921,0.211,0.0,2,9,tvgt3nrpmyvqpteh4ajzlo6qgho.attacco.test,1,2,A,2,"La presenza di un record di tipo **A** con un label di 40 caratteri quasi privo di vocali, alta entropia (4.19) e una lunga sequenza di consonanti indica un nome generato in modo casuale tipico dei DGA, non un dominio leggibile o un payload TXT.  
+
+Quindi, il profilo corrisponde a un possibile dominio **Malware DGA**.  
+
+CLASSE: 2"
+51,4.366,0.0,1.0,0.188,0.0,3,20,qjijhxgfnfcqxmbsjlbvnnredausfs.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa di 51 caratteri, entropia elevata (4.36) e una lunga sequenza di consonanti (20), tipiche di dati codificati usati per tunneling/exfiltration.  
+CLASSE: 1"
+21,3.654,0.158,0.684,0.263,0.158,2,3,xn--asks-f0a77a.co.id,1,3,A,3,"Il dominio è un punycode (xn--...), tipico di impersonificazione IDN; il record è di tipo A (normale) ma la lunghezza moderata, l’entropia non eccessiva e la presenza di cifre suggeriscono un nome creato per sembrare legittimo più che per trasporto dati.  
+Queste caratteristiche indicano un possibile tentativo di typosquatting/impersonificazione.  
+CLASSE: 3"
+51,4.336,0.0,1.0,0.25,0.0,3,9,necdvdxtkedidhasuebjicrbtrrkfr.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con una stringa di sub‑domain lunga, alta entropia (4.336) e una sequenza di consonanti di 9 indica tipicamente un canale di tunneling/exfiltration.  
+CLASSE: 1"
+27,3.676,0.5,0.455,0.182,0.045,5,3,134.86.126.174.in-addr.arpa,0,0,A,0,"Il tipo di record A su un nome “in‑addr.arpa” è tipico di query reverse DNS legittime; la lunghezza (27) e l’entropia moderata (3.68) non indicano stringhe casuali o payload estremi. Nessuna anomalia strutturale o uso di punycode suggerisce attività malevola.  
+CLASSE: 0"
+26,3.686,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,49.208.140.79.in-addr.arpa,1,1,A,0,"Il tipo A per una query reverse‑lookup su un IP è tipico del traffico legittimo; la lunghezza (26) e l’entropia moderata (3.69) rientrano nella norma per un dominio “in‑addr.arpa” con molte cifre. Non ci sono pattern di tunneling, DGA né spoofing.
+
+CLASSE: 0"
+51,4.342,0.0,1.0,0.188,0.0,3,9,kxtwsguralfzjpzfupqmuqprzsfcxp.sandbox.alphasoc.xyz,1,1,TXT,1,"Il tipo TXT con una stringa molto lunga (51 caratteri) e alta entropia (4.34) è tipico di tunneling/exfiltration, dove dati codificati vengono inseriti in record TXT. La lunghezza estrema e la scarsa presenza di vocali rafforzano l’indicazione di payload incapsulato.
+
+CLASSE: 1"
+26,3.584,0.0,1.0,0.375,0.0,2,4,farmacomedia.wordpress.com,0,0,AAAA,0,"Il record AA​AA indica un normale indirizzo IPv6; la lunghezza (26) e l’entropia (3.58) sono tipiche di domini leggibili (farmacomedia) con pochi sottodomini, nessun dato anomalo.  
+CLASSE: 0"
+13,2.931,0.0,1.0,0.333,0.0,1,2,armorcast.com,0,0,A,0,"Il record di tipo **A**, la lunghezza moderata (13) e l'entropia bassa (≈2.9) indicano un nome leggibile e non casuale; i valori di vocali, consonanti e assenza di cifre/speciali sono tipici di domini legittimi.  
+
+CLASSE: 0"
+18,3.795,0.23500000000000001,0.588,0.11800000000000001,0.176,1,2,xn--j115-gya0q.com,1,3,A,3,"Il record è di tipo A e la lunghezza (18) e l’entropia (≈3.8) sono nella media, ma la forma punycode “xn--…” suggerisce un possibile homograph/typosquatting.  
+CLASSE: 3"
+26,3.686,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,149.37.184.75.in-addr.arpa,0,0,AAAA,0,"La presenza di un record AA/A (reverse DNS) con lunghezza moderata (26), entropia contenuta (≈3.7) e alto numero di cifre è tipica di un dominio di risoluzione IP legittimo, senza anomalie strutturali.  
+
+CLASSE: 0"
+51,4.437,0.0,1.0,0.188,0.0,3,12,txdfggnuvpafifnckovbpxkmqtrmzn.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, con una stringa di 51 caratteri ad alta entropia (4.44) e quasi nessuna vocale, tipico di dati codificati inseriti in un dominio random; la lunghezza e il tipo suggeriscono un canale di tunneling/exfiltration.  
+
+CLASSE: 1"
+8,2.5,0.0,1.0,0.14300000000000002,0.0,1,4,mslc.com,0,0,AAAA,0,"Bassa entropia (2.5), lunghezza breve (8) e tipo di record AA​AA tipico di risoluzione IP indicano un dominio legittimo. Nessuna anomalia di sottodomini o caratteri speciali.  
+CLASSE: 0"
+20,3.646,0.158,0.684,0.263,0.158,1,2,xn--rabia-r9a19h.com,1,3,A,3,"Il record è di tipo A, tipico dei domini legittimi, ma il prefisso punycode (xn--) segnala un dominio IDN usato per imitare un nome reale; la lunghezza (20) e l’entropia moderata (3.6) non corrispondono a tunneling né a DGA.  
+Queste caratteristiche lo collocano nella categoria Imposter/Typosquatting.  
+CLASSE: 3"
+8,3.0,0.14300000000000002,0.857,0.429,0.0,1,1,e4bay.in,1,3,A,3,"Il record di tipo A, la lunghezza contenuta (8) e l’entropia bassa (3.0) indicano un dominio non casuale né di tunneling; la presenza di “e4bay” ricorda il brand eBay con una leggera variazione, tipica di typosquatting.  
+CLASSE: 3"
+71,5.009,0.275,0.725,0.188,0.0,2,4,deh168vu6czne28k24ms6wkj37f4wiwmbzaphjrul5ivgiwnx529q0i06b.attacco.test,1,2,A,2,"Il record è di tipo A (normale), ma il nome include una label molto lunga (71 caratteri) con alta entropia (5.009) e alta percentuale di cifre, tipica di domini generati casualmente da DGA.  
+Il dominio ha pochi sottodomini e nessun carattere speciale, confermando la natura randomizzata piuttosto che di tunneling.
+
+CLASSE: 2"
+39,4.007,0.108,0.892,0.243,0.0,2,4,uhnnsatvibbnabchp1ofk9b4h4.attacco.test,1,2,A,2,"La presenza di un record di tipo A, la lunghezza moderata (≈26 caratteri) e l’alta entropia (≈4,0) indicano un label apparentemente casuale tipico di domini generati da algoritmo (DGA), non di tunneling (che userebbe TXT) né di typosquatting.  
+
+CLASSE: 2"
+13,2.873,0.0,1.0,0.5,0.0,1,2,atiassiam.net,1,3,A,0,"Il record di tipo A, la lunghezza media (13) e l’entropia relativamente bassa (≈2.9) sono tipici di domini legittimi, senza segnali di tunneling o DGA.  
+
+CLASSE: 0"
+76,4.789,0.257,0.743,0.176,0.0,2,6,vnix3rjr0rrsuo1f3ljb0yt46r567mcm848joweqwu5nc7kpgbgg74r7ok5ocwa.attacco.test,1,2,A,2,"Il record è di tipo A, ma la sottostringa di 76 caratteri mostra alta entropia (4.789) e un pattern quasi casuale di lettere e cifre, tipico dei domini generati da DGA.  
+La lunghezza media e i pochi sottodomini confermano la probabilità di un dominio malware automatico.  
+
+CLASSE: 2"
+24,3.752,0.227,0.773,0.273,0.0,2,2,fd21u2o3pd6.attacco.test,1,2,AAAA,1,"Il qtype AAAA e la stringa di 24 caratteri con entropia 3.75, ricca di cifre, indicano un possibile utilizzo di record IP per trasportare payload codificati, tipico di tunneling/data exfiltration.  
+CLASSE: 1"
+44,4.315,0.214,0.786,0.262,0.0,2,3,kp1eyl2b9fki6kof5yks7ai3obomk02.attacco.test,1,2,A,2,"Il record è di tipo A, tipico dei domini di comando‑e‑controllo; la prima etichetta è lunga (≈32 caratteri) e con entropia 4.3, ricca di caratteri alfanumerici e priva di parole leggibili, indicatore di DGA. Non si osservano le estremità di lunghezza tipiche del tunneling né pattern di brand.  
+CLASSE: 2"
+37,4.432,0.28600000000000003,0.714,0.171,0.0,2,3,i2vg05lri178n3mz5rz57fdd.attacco.test,1,2,A,2,"Il tipo A è tipico dei record legittimi, ma la lunghezza media (37) e l’entropia elevata (4.43) insieme a una stringa quasi casuale ricca di cifre indicano un dominio generato automaticamente piuttosto che un nome leggibile. La presenza di soli due sottodomini e l'assenza di caratteri speciali rafforza l'ipotesi di DGA.
+
+CLASSE: 2"
+27,4.282,0.192,0.6920000000000001,0.154,0.115,1,3,xn--myfitnespa-j0b5950g.com,1,3,A,3,"Il record è di tipo A (normale), ma il dominio è in punycode (xn--) e rappresenta una variante non pronunciabile di “myfitness”, tipica di typosquatting; lunghezza 27 ed entropia 4.28 non suggeriscono DGA né tunneling.  
+CLASSE: 3"
+59,4.564,0.193,0.807,0.123,0.0,2,7,ycbwqph5xqq9g3jg6rmcb707pbwecpbm4pb5izcr03bfxi.attacco.test,1,2,AAAA,2,"Il tipo AAAA indica un record IP (non tipico per tunneling TXT) e la lunghezza estrema (59) unita a un’alta entropia (4.56) suggeriscono una stringa generata casualmente; i pochi sottodomini e la bassa percentuale di vocali rafforzano il profilo di un dominio DGA.  
+
+CLASSE: 2"
+25,4.023,0.167,0.708,0.167,0.125,1,5,xn--bookmysh-qsb4806e.com,1,3,A,3,"Il dominio è in punycode (xn--) e richiama il brand “bookmyshow” con una leggera variazione, tipico di impersonation/typosquatting; la lunghezza moderata, l’entropia non eccessiva e il record A non suggeriscono tunneling o DGA.  
+CLASSE: 3"
+28,4.28,0.222,0.667,0.222,0.111,1,3,xn--thtiralfeed-86a4969g.com,1,3,A,3,"Il dominio è in Punycode (xn--...), tipico di homograph/typosquatting; il record A è normale, ma la lunghezza e l’entropia moderata con molti caratteri non‑alfabetici indicano un nome artificiale volto a imitare un brand legittimo.  
+
+CLASSE: 3"
+12,3.252,0.0,1.0,0.4,0.0,2,2,dreanm.co.id,1,3,A,0,"Il record è di tipo A (tipico per host legittimi), la lunghezza è moderata (12) e l’entropia (3.25) non è estremamente alta, quindi non mostra i pattern di lunghe stringhe codificate o di domini totalmente casuali.  
+
+CLASSE: 0"
+52,4.48,0.24,0.76,0.18,0.0,2,6,4c4a84pzyyjy3dutcg537u33cunxikwpnhj64qg.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico del traffico legittimo, ma il sotto‑dominio è lungo (52 char), con alta entropia (4,48) e aspetto casuale, tipico di DGA più che di tunneling o typo‑squatting. Non è un TXT né una stringa estremamente lunga, quindi la classe più aderente è quella DGA.  
+CLASSE: 2"
+40,4.125,0.23700000000000002,0.763,0.184,0.0,2,7,i43fexgqcllb4gcp6t6r4lye624.attacco.test,1,2,AAAA,0,"Il record AAAA è tipico di risoluzioni legittime; la lunghezza 40 e l'entropia 4.125, seppur elevate, non raggiungono i valori estremi tipici di tunneling o DGA, e non vi sono segnali di typosquatting.  
+CLASSE: 0"
+51,4.241,0.0,1.0,0.229,0.0,3,7,csubyhtiggcvxxquhpbcudnanwltsu.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con elevata sequenza di consonanti indica un payload codificato trasportato in DNS; la lunghezza e l’entropia moderata sono tipiche dei canali di tunneling.  
+La struttura non appare come un DGA classico ma come un tentativo di esfiltrazione dati.  
+CLASSE: 1"
+20,3.384,0.0,1.0,0.316,0.0,1,2,marcusmillichamp.com,0,0,AAAA,0,"Il record AA​AA indica un normale puntamento a indirizzo IPv6; la lunghezza di 20 caratteri e l’entropia relativamente bassa (3.38) sono tipiche di domini leggibili e non casuali; inoltre la presenza di una sola sotto‑dominio e una quota equilibrata di vocali conferma la natura legittima.  
+
+CLASSE: 0"
+62,4.815,0.2,0.8,0.2,0.0,2,6,cbjzpg4w9tsilj0m66fr8olvz3auh62e6sjnekwny2xams5xo.attacco.test,1,2,A,1,"Il record è di tipo A, ma il primo label è estremamente lungo (≈53 caratteri) con alta entropia (≈4.8) e caratteri quasi tutti casuali, tipico di un payload incapsulato per tunneling/exfiltration.  
+Il numero di sottodomini è ridotto (2) e non vi sono pattern di brand o parole reali, quindi non è un DGA né typosquatting.
+
+CLASSE: 1"
+51,4.322,0.0,1.0,0.20800000000000002,0.0,3,9,fwnqqrxqcevgcrciirwlxnhyoochjy.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e la stringa è estremamente lunga (51 caratteri), tipico dei canali di tunneling che usano TXT per trasportare dati codificati. L’entropia (4.322) è alta e la sequenza di consonanti (9) indica un contenuto quasi casuale, coerente con un payload di esfiltrazione.  
+CLASSE: 1"
+24,3.887,0.13,0.739,0.17400000000000002,0.13,1,4,xn--nstructur-j4a54w.com,1,3,A,3,"Il dominio è in Punycode (xn--...), tipico di IDN usati per impersonare marchi (es. “instructure”), ha una lunghezza moderata e un’entropia non eccessiva, mentre il record A è comune per siti legittimi. Queste caratteristiche indicano un possibile caso di typosquatting/impersonation.  
+CLASSE: 3"
+27,4.088,0.16,0.84,0.2,0.0,2,4,hfllurv20jq83v.attacco.test,1,2,AAAA,0,"Il record è di tipo AAAA, tipico dei normali lookup IP; la lunghezza di 27 caratteri e l’entropia 4.09 sono nella media per domini legittimi.  
+Non vi sono segnali di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+51,4.312,0.0,1.0,0.25,0.0,3,10,bhlhuahjaconrpkzofawcmvhdkrbgu.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e un’entropia elevata (4.312), tipici di payload codificati usati per tunneling o esfiltrazione di dati.  
+CLASSE: 1"
+15,3.323,0.0,1.0,0.385,0.0,2,3,www.guiaroja.mx,0,0,AAAA,0,"Il tipo AAAA indica un normale record IPv6, la lunghezza (15) e l’entropia (3.3) sono tipiche di domini leggibili (“guiaroja”) senza cifre né caratteri speciali, coerenti con traffico legittimo.  
+CLASSE: 0"
+23,3.675,0.0,1.0,0.35000000000000003,0.0,3,3,www.elagricultor.com.es,0,0,A,0,"Il record è di tipo A, la lunghezza è moderata (23) e l’entropia è bassa (≈3.7), tipiche di domini leggibili e non randomizzati. Non vi sono anomalie strutturali né uso di record TXT lunghi.  
+CLASSE: 0"
+28,3.437,0.522,0.435,0.17400000000000002,0.043000000000000003,5,3,131.202.217.217.in-addr.arpa,0,0,AAAA,0,"Le caratteristiche (tipo AAAA, lunghezza moderata, bassa entropia, alto tasso di cifre e struttura tipica di un dominio inverso) corrispondono a traffico DNS legittimo per una query di reverse‑lookup.  
+
+CLASSE: 0"
+26,3.533,0.182,0.773,0.273,0.045,4,3,netra120-4.otts.ru.otts.ru,0,0,AAAA,0,"Il record AAAA è tipico del traffico legittimo; la lunghezza (26) e l’entropia (3.53) sono moderate, senza sequenze anomale di caratteri o elevato uso di cifre. Non emergono pattern di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+29,4.073,0.148,0.852,0.296,0.0,2,3,4ievj9aqbh8o1gzq.attacco.test,1,2,AAAA,2,"Il record AAAA è tipico di traffico legittimo, ma la prima etichetta “4ievj9aqbh8o1gzq” (16 caratteri, entropia 4.07, senza caratteri speciali) appare casuale e con pochi sottodomini, caratteristiche tipiche di un DGA.  
+
+CLASSE: 2"
+18,3.572,0.0,1.0,0.312,0.0,2,3,www.paygonline.com,0,0,A,0,"Il record di tipo A, la lunghezza moderata (18) e un’entropia intorno a 3.5 indicano una stringa leggibile e non casuale; la percentuale di vocali è tipica di parole reali.  
+CLASSE: 0"
+35,4.147,0.152,0.848,0.182,0.0,2,13,ow9525kljlwjxfrknvm2ot.attacco.test,1,2,AAAA,0,"Il record è di tipo AAAA, tipico dei normali indirizzi IP, e la lunghezza (35) e l’entropia (4.15) non sono così elevate da suggerire un dominio DGA o un tunnel dati. Inoltre il dominio di secondo livello “attacco.test” è leggibile, indicando un uso legittimo.
+
+CLASSE: 0"
+26,3.456,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,195.112.17.95.in-addr.arpa,0,0,A,0,"Il dominio è una tipica reverse‑DNS (IP‑in‑addr.arpa) con struttura standard; lunghezza 26 e entropia 3.456 sono basse, con alta presenza di cifre, tipiche di traffico legittimo.  
+CLASSE: 0"
+19,3.682,0.167,0.667,0.278,0.167,1,2,xn--nuce-0pa85a.com,1,3,A,3,"Il dominio è in punycode (xn--...), tipico degli IDN usati per typosquatting; la lunghezza è moderata e l’entropia non è elevata, mentre il record A è comune per host legittimi. Queste caratteristiche corrispondono alla classe di domini che imitano brand o usano caratteri speciali.
+
+CLASSE: 3"
+27,3.5,0.5,0.455,0.182,0.045,5,3,106.66.177.190.in-addr.arpa,0,0,A,0,"Il tipo A per un nome reverse‑DNS (in‑addr.arpa) è tipico di risoluzioni legittime; la lunghezza 27 e l’entropia 3,5 sono basse, coerenti con parole di senso compiuto e nessuna anomalia.  
+CLASSE: 0"
+18,3.795,0.0,1.0,0.353,0.0,1,3,reddituploadsb.com,1,3,A,0,"Il record A, la lunghezza moderata (18) e l’entropia contenuta (≈3.8) indicano un dominio leggibile, con una parola riconoscibile “reddit”, senza pattern tipici di tunneling o DGA.  
+Pertanto rientra nella categoria di traffico normale.  
+
+CLASSE: 0"
+21,3.499,0.053,0.9470000000000001,0.263,0.0,2,6,zrhprl0a.attacco.test,1,2,A,0,"Il record è di tipo A, la lunghezza (21) è nella media e l'entropia (3,5) non indica una stringa altamente casuale; il dominio appare come un normale sotto‑dominio di “attacco.test”.  
+CLASSE: 0"
+36,4.371,0.324,0.676,0.11800000000000001,0.0,2,4,xmmx2109m717p8ddyw86nb5.attacco.test,1,2,AAAA,0,"La presenza di record AAAA (IPv6) è tipica di domini legittimi; la lunghezza di 36 caratteri e un’entropia di 4.37 non indicano stringhe casuali né payload estremi, mentre i sottodomini sono pochi e la stringa contiene parole comprensibili.  
+
+CLASSE: 0"
+27,3.676,0.5,0.455,0.182,0.045,5,3,90.164.123.201.in-addr.arpa,0,0,AAAA,0,"Il qtype AAAA è insolito per un reverse‑IPv4 ma la lunghezza (27) e l’entropia (3.68) rientrano nei valori tipici di un record legittimo; i 5 sotto‑domini rappresentano gli ottetti dell’IP.  
+CLASSE: 0"
+29,4.159,0.14300000000000002,0.75,0.28600000000000003,0.107,1,2,xn--tutorialsoit-vec7525h.com,1,3,A,3,"Il record è di tipo A, la lunghezza (29) e l’entropia (4.16) sono tipiche di domini non‑maligni, ma il prefisso xn-- indica un dominio IDN potenzialmente usato per homograph/typosquatting.  
+CLASSE: 3"
+16,3.328,0.5,0.5,0.214,0.0,2,1,d2114919.xoom.it,0,0,A,0,"Il record A di lunghezza moderata (16) con entropia relativamente bassa (3.328) e un sottodominio numerico ma leggibile suggerisce un dominio legittimo (xoom.it) piuttosto che un pattern DGA o di tunneling.  
+CLASSE: 0"
+57,4.734,0.327,0.673,0.127,0.0,2,10,f91o1vu94qb0bhiqw575kl584t99wd4367kfqmsgrmrm.attacco.test,1,2,AAAA,2,"Il record è di tipo AAAA, tipico di domini legittimi, ma la lunghezza 57 e l’alta entropia 4.734 (con lunghi tratti di consonanti e molte cifre) indicano un nome generato casualmente, tipico di DGA.  
+CLASSE: 2"
+51,4.329,0.0,1.0,0.229,0.0,3,10,otovikwbgbmpistpfveotdkbxfcdby.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, con una stringa molto lunga (51 caratteri) e alta entropia (4.33), tipica di payload codificati per tunneling; la struttura casuale e l'assenza di pattern leggibili lo escludono da domini legittimi o DGA brevi.  
+Pertanto rientra nella categoria di Tunneling / Data Exfiltration.  
+CLASSE: 1"
+15,3.24,0.07100000000000001,0.929,0.214,0.0,1,3,techc4runch.com,1,3,A,0,"Il dominio contiene una parola leggibile (“techc4runch”), utilizza un record A, ha lunghezza moderata (15) e bassa entropia (3.24), tipiche di traffico legittimo.  
+CLASSE: 0"
+15,3.374,0.0,1.0,0.357,0.0,1,2,retyilmenot.com,1,3,A,0,"Il record A e la lunghezza moderata (15) con entropia 3.37 indicano un dominio tipico, non estremamente casuale né anormalmente lungo; la presenza di vocali e la bassa sequenza di consonanti suggeriscono un nome leggibile.  
+
+CLASSE: 0"
+51,4.4,0.0,1.0,0.146,0.0,3,20,vxfyxtjykwtwprrccrvfoetgzfkymy.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.4) e una sequenza di consonanti estremamente lunga (20), tipiche di payload codificati usati per tunneling/exfiltration. La combinazione di qtype TXT, lunghezza estrema e bassa percentuale di vocali indica chiaramente un uso di dominio per trasferire dati.
+
+CLASSE: 1"
+25,3.833,0.042,0.833,0.125,0.125,1,5,xn--brightoncllc-nt1f.com,1,3,A,3,"Il record A di tipo standard e la lunghezza/modesta entropia non indicano tunneling né DGA; la presenza del prefisso punycode “xn--” suggerisce un dominio IDN usato per imitare un brand legittimo.  
+
+CLASSE: 3"
+10,2.922,0.0,1.0,0.444,0.0,1,2,offibe.com,1,3,A,0,"Il record è di tipo A, con lunghezza moderata (10) e bassa entropia (2.9), il nome “offibe” sembra una parola leggibile e non presenta anomalie strutturali.  
+
+CLASSE: 0"
+36,3.951,0.121,0.788,0.152,0.091,3,4,xn--blspot-qbc5476c.com.blogspot.com,1,3,A,0,"Tipo A, lunghezza e entropia nella norma; il punycode è un sottodominio legittimo di blogspot.com, tipico di un dominio IDN regolare.  
+CLASSE: 0"
+37,4.486,0.14300000000000002,0.857,0.257,0.0,2,4,6dhln2ujy5eippedqifvs90z.attacco.test,1,2,A,2,"Il record A indica uso legittimo, ma la label iniziale è una stringa casuale di 23 caratteri con alta entropia (4.486) e pochi sottodomini, tipica di domini DGA.  
+CLASSE: 2"
+11,3.459,0.0,1.0,0.30000000000000004,0.0,1,3,synutra.com,0,0,A,0,"Il record è di tipo A, tipico per host legittimi, con lunghezza moderata (11) e bassa entropia (3.459), e il nome appare leggibile senza sequenze anomale. Non ci sono indicatori di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+28,3.625,0.522,0.435,0.17400000000000002,0.043000000000000003,5,3,194.153.144.186.in-addr.arpa,0,0,A,0,"La query è per un nome reverse‑DNS standard (`*.in-addr.arpa`) con tipo A, lunghezza moderata (28) e bassa entropia (3.6), tipica di domini legittimi e senza pattern di tunneling o DGA.  
+
+CLASSE: 0"
+51,4.52,0.0,1.0,0.20800000000000002,0.0,3,11,ujdlhykcmtfpivedlkzpnognjysgqe.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa estremamente lunga (51 caratteri) e alta entropia (4.52), tipica di payload codificati usati per tunneling/exfiltration; la sequenza di consonanti e la scarsa presenza di vocali indicano dati casuali piuttosto che un dominio legittimo.  
+
+CLASSE: 1"
+51,4.353,0.0,1.0,0.146,0.0,3,15,egchrvxjgybxxkadyqplxmwtbchyqs.sandbox.alphasoc.xyz,1,1,TXT,1,"Il dominio è un sotto‑dominio molto lungo (31 caratteri) con alta entropia (4.35) e viene interrogato con record TXT, tipico dei canali di tunneling/exfiltration di dati. La combinazione di lunghezza estrema, entropy elevata e tipo TXT corrisponde alla classe 1.  
+CLASSE: 1"
+11,3.278,0.0,1.0,0.2,0.0,1,4,sxcribd.com,1,3,A,3,"Il record è di tipo A, con lunghezza 11 e bassa entropia (3.28), caratteristiche tipiche di domini leggibili. Il nome “sxcribd” è una variazione di “scribd.com”, tipico caso di typosquatting.  
+CLASSE: 3"
+51,4.211,0.0,1.0,0.167,0.0,3,10,vwlhandskdcvmelkcjnjqnxvelhjsd.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.21) e una sequenza di 10 consonanti indica un payload codificato tipico del tunneling/exfiltration, non un dominio DGA normale.  
+La lunghezza estrema e l’uso di TXT lo collocano nella classe di data‑exfiltration.  
+
+CLASSE: 1"
+51,4.366,0.0,1.0,0.229,0.0,3,17,imwoonlrvrkrylfgyfympcoisqelnr.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT contiene una stringa molto lunga (51 caratteri) con alta entropia (4.366) e una sequenza di consonanti estremamente lunga (17), tipica di payload codificati usati per tunneling/exfiltration. La presenza di soli tre sottodomini e l’assenza di vocali o cifre rafforza l’indicazione di un dominio generato per trasportare dati, non per uso legittimo.
+
+CLASSE: 1"
+25,3.559,0.45,0.5,0.2,0.05,5,3,42.191.10.95.in-addr.arpa,0,0,A,0,"Il dominio è un tipico reverse‑DNS (IP‑in‑addr.arpa) con qtype A, lunghezza moderata e entropia bassa; non presenta anomalie né stringhe casuali né lunghe sequenze codificate.  
+CLASSE: 0"
+11,3.096,0.0,1.0,0.30000000000000004,0.0,1,2,dropdav.com,0,0,AAAA,0,"Il tipo di record AA AAA indica un normale record IPv6, la lunghezza di 11 caratteri e l’entropia moderata (3.1) sono tipici di domini leggibili e non casuali. Non vi sono sequenze anomale di consonanti, cifre o caratteri speciali, né lunghezze estreme tipiche di tunneling o DGA.  
+CLASSE: 0"
+25,3.814,0.13,0.739,0.304,0.13,2,3,adidas.xn--tml-2oa91a.com,1,3,A,3,"La query A è tipica di normale risoluzione, ma il sottodominio Punycode (xn--…) che nasconde “adidas” suggerisce un homograph/typosquatting; la lunghezza 25 e l’entropia 3.8 non sono né estremamente lunghe né altamente casuali.  
+CLASSE: 3"
+55,4.459,0.264,0.736,0.151,0.0,2,6,6kqbyx303bhmm3yderbtwlq0c6ke88lc12c0b7jaa0.attacco.test,1,2,A,2,"Il record è di tipo A, ma la lunghezza 55 e l'entropia 4.459 mostrano una stringa ad alta casualità tipica dei domini generati da DGA; non è estremamente lungo né usa TXT, quindi non è tunneling.  
+CLASSE: 2"
+26,3.763,0.125,0.875,0.25,0.0,2,3,tx9d7daohvj5n.attacco.test,1,2,A,2,"Il tipo A è comune, ma il sottodominio “tx9d7daohvj5n” è una stringa casuale di 13 caratteri con alta entropia (3.76) e nessuna parola leggibile, tipico dei domini generati da DGA.  
+Non presenta le lunghezze estreme dei tunneling né errori tipografici di brand.
+
+CLASSE: 2"
+26,3.533,0.47600000000000003,0.47600000000000003,0.19,0.048,5,3,112.16.156.93.in-addr.arpa,0,0,A,0,"L'uso di record A per un nome reverse‑DNS (in‑addr.arpa) con lunghezza moderata (26) e entropia media (3.5) è tipico del traffico legittimo; non vi sono segnali di tunneling, DGA o typosquatting.  
+CLASSE: 0"
+8,3.0,0.0,1.0,0.28600000000000003,0.0,1,2,nkih.gov,1,3,A,0,"Il record è di tipo A, tipico per host legittimi; la lunghezza è breve (8) e l’entropia è bassa (3.0), indicando un nome leggibile, non casuale né estremamente lungo.  
+CLASSE: 0"
+51,4.302,0.0,1.0,0.229,0.0,3,12,fimcuajmxowfcvfcpvtcmtuhfonmkh.sandbox.alphasoc.xyz,1,1,TXT,2,"Il record è di tipo TXT, tipico di canali di data‑exfiltration, ma la lunghezza (51) è moderata e la stringa è altamente aleatoria (entropia 4.30, 12 consonanti consecutive, poche vocali), caratteristiche tipiche di un dominio generato da DGA.  
+CLASSE: 2"
+23,3.708,0.14300000000000002,0.857,0.28600000000000003,0.0,2,2,e35xg6qiyc.attacco.test,1,2,A,2,"Il record è di tipo **A** (normale per host), ma il primo label “e35xg6qiyc” è una stringa casuale di 10 caratteri con entropia 3.708, alta per una lunghezza media e senza vocali o parole di senso; pochi sottodomini suggeriscono un generatore DGA.  
+
+**CLASSE: 2**"
+51,4.422,0.0,1.0,0.229,0.0,3,10,wflcrvihpisvmescoirkknhjzgjhol.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e un’entropia elevata (4.42), tipica di payload codificati per tunneling; la presenza di pochi sottodomini e l’alta concentrazione di consonanti rafforzano l’ipotesi di esfiltrazione dati.  
+CLASSE: 1"
+28,3.6550000000000002,0.038,0.962,0.34600000000000003,0.0,2,2,spoycaj0nseyiik.attacco.test,1,2,A,2,"Record A legittimo, ma il nome host è una stringa apparentemente casuale (28 caratteri, entropia 3.65) con pochi sottodomini, tipico di domini generati da DGA.  
+CLASSE: 2"
+24,3.887,0.17400000000000002,0.652,0.217,0.17400000000000002,1,3,xn--lst-manag-34a90e.com,1,3,A,3,"Il dominio è in punycode (xn--), tipico per IDN usati in typosquatting; la lunghezza è moderata (24) e l’entropia (3.887) non è estremamente alta, mentre il record A è comune per siti web legittimi o falsi.  
+Queste caratteristiche indicano un possibile tentativo di imitare un brand legittimo piuttosto che traffico di tunneling o DGA.  
+CLASSE: 3"
+32,3.965,0.233,0.767,0.2,0.0,2,6,849jbaqbylft77ba0c1.attacco.test,1,2,AAAA,0,"Lunghezza moderata, entropia non eccessiva e tipo di record AAaa (tipico per host legittimi) indicano un dominio di uso normale; non presenta caratteristiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+20,2.946,0.0,0.9470000000000001,0.263,0.053,1,3,consta-ntcontact.com,1,3,A,0,"Il record è di tipo **A**, tipico dei domini legittimi; la lunghezza (20) e l'entropia (≈2.9) sono coerenti con parole di senso compiuto e non indicano payload o stringhe casuali. La presenza di un solo sottodominio e di pochi caratteri speciali rafforza la natura normale del dominio.  
+CLASSE: 0"
+51,4.383,0.0,1.0,0.312,0.0,3,8,kzhdpbcfuieazrohvelpqeomikrrem.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT, tipico per incanalare payload; la stringa è molto lunga (51 caratteri) e ha alta entropia (4.38), risultando quasi incomprensibile e ricca di consonanti, caratteristiche tipiche di tunneling/exfiltration.  
+CLASSE: 1"
+51,4.194,0.0,1.0,0.271,0.0,3,9,cweototxzhuvcotaecjxofqdchwfdd.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri contiene una sottodomain lunghissima (32 caratteri) con alta entropia (4.19) e pochissime vocali, tipico di payload codificati usati per tunneling/exfiltration.  
+
+CLASSE: 1"
+51,4.314,0.0,1.0,0.20800000000000002,0.0,3,13,ofnihfgxnqcsnqzzluntqtmuqnkord.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT con una stringa lunga 51 caratteri, alta entropia (4.31) e una sequenza di 13 consonanti suggerisce un payload codificato tipico del tunneling/exfiltration. La struttura con più sottodomini non è tipica dei DGA, ma il tipo e la lunghezza indicano uso malevolo per trasporto dati.  
+CLASSE: 1"
+26,3.9210000000000003,0.08,0.8,0.28,0.12,1,3,xn--tewathseries-odb77f.to,1,3,A,3,"Il dominio è in punycode (xn--), tipico di impersonificazione IDN; la lunghezza è media e l’entropia (≈3.9) non è elevata come per DGA o tunneling, mentre il record A è comune per host “normali” usati in typosquatting.  
+
+CLASSE: 3"
+13,2.873,0.0,1.0,0.273,0.0,2,3,www.rorta.net,0,0,AAAA,0,"Record AAAA, lunghezza 13 e bassa entropia (2.87) tipici di dominio legittimo; non presenta caratteristiche di tunneling, DGA o typo‑squatting.  
+CLASSE: 0"
+9,2.948,0.0,1.0,0.375,0.0,1,2,sohbu.com,1,3,A,0,"Il record di tipo A, la breve lunghezza (9 caratteri) e l’entropia moderata (≈2.9) indicano un nome di dominio leggibile e non artificiale, senza pattern tipici di tunneling o DGA. La presenza di una sola etichetta e l’assenza di cifre o caratteri speciali confermano la normalità.
+
+CLASSE: 0"
+29,4.047,0.074,0.926,0.259,0.0,2,3,tjdelivery10.trafficjunky.net,0,0,A,0,"Il record A ha lunghezza media (29) e entropia moderata (4.0), ma il nome contiene parole leggibili e riconoscibili (tjdelivery, trafficjunky), tipiche di un sottodominio legittimo.  
+CLASSE: 0"
+17,3.455,0.125,0.6880000000000001,0.062,0.188,1,2,xn--ny0st-0tb.com,1,3,A,3,"Il dominio è in punycode (xn--...), tipico di IDN usati per impersonare brand; la query A, lunghezza moderata (17) e entropia non estrema (3.455) non indicano tunneling o DGA.  
+
+CLASSE: 3"
+31,4.156,0.31,0.6900000000000001,0.138,0.0,2,3,9nj6dqf1d5y5534mn6.attacco.test,1,2,AAAA,0,"Il record AAAA è tipico di traffico legittimo (IPv6) e la lunghezza 31 con entropia 4.156 non indica una stringa estremamente casuale; i sottodomini sono pochi e non vi sono caratteri speciali.  
+CLASSE: 0"
+51,4.241,0.0,1.0,0.25,0.0,3,9,ocsvqunvacgxzxiyqnizrzgjxgwjao.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT con una stringa molto lunga (51 caratteri) e un’entropia elevata (≈4.24), tipici di payload codificati usati per tunneling o esfiltrazione dati. La presenza di molti consonanti consecutivi e la scarsa presenza di vocali rafforza l’idea di dati binari trasformati in testo.
+
+CLASSE: 1"
+11,2.914,0.0,1.0,0.5,0.0,1,2,corrieve.it,1,3,A,0,"Tipo A, lunghezza breve (11) e entropia moderata (~2.9) tipica di parole leggibili; la presenza di vocali e consonanti normali suggerisce un dominio legittimo.  
+CLASSE: 0"
+25,3.863,0.0,1.0,0.273,0.0,3,5,www.butterflymodels.co.uk,0,0,AAAA,0,"Il record AAAA, la lunghezza moderata (25) e l’entropia relativamente bassa indicano un nome leggibile e tipico di un dominio legittimo; non ci sono pattern di lunghezze estreme o alta casualità.  
+CLASSE: 0"
+51,4.312,0.0,1.0,0.20800000000000002,0.0,3,18,ionmefvjdmpmbqxrdqmkmvsobjaqzq.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record TXT di 51 caratteri con alta entropia (4.312) e una sequenza di 18 consonanti indica un payload codificato tipico del tunneling/exfiltration, non un normale nome di dominio. La lunghezza estrema e il tipo di record lo collocano nella classe di tunneling.
+
+CLASSE: 1"
+16,3.453,0.0,0.929,0.429,0.07100000000000001,2,3,www.ikea-usa.com,0,0,A,0,"Il record di tipo A e la lunghezza moderata (16) con entropia bassa (3.45) sono tipici di domini legittimi; la composizione di vocali/consonanti è naturale.  
+Non ci sono segnali di tunneling, DGA né di typo‑squatting.  
+
+CLASSE: 0"
+51,4.5,0.0,1.0,0.188,0.0,3,11,ncgjkwzqmfrexffuijkmshckfpxbud.sandbox.alphasoc.xyz,1,1,TXT,1,"Tipo di record TXT con stringa molto lunga (51 caratteri) e alta entropia (4.5) suggerisce un payload codificato tipico di tunneling/data‑exfiltration.  
+CLASSE: 1"
+69,4.737,0.194,0.806,0.209,0.0,2,6,mm56qxgpjw0mvtsle7rab9tqe5dnde1lcy1aa8utl24i4lnyptex0aff.attacco.test,1,2,A,1,"Record A, ma il sottodominio è una stringa molto lunga (69) con alta entropia (4.74) e alta percentuale di cifre, tipica di dati codificati in query DNS per tunneling/exfiltration.  
+CLASSE: 1"
+8,2.406,0.14300000000000002,0.857,0.14300000000000002,0.0,1,3,dmm5.com,1,3,A,0,"Il dominio è corto (8 caratteri), ha bassa entropia (2.4) e utilizza un record A, tipico dei domini legittimi; non presenta sequenze anomale né caratteri speciali.  
+CLASSE: 0"
+51,4.368,0.0,1.0,0.146,0.0,3,11,xvgscprgqmkevkjjcxqwbaymvgbdkg.sandbox.alphasoc.xyz,1,1,TXT,1,"Il record è di tipo TXT e contiene una stringa estremamente lunga (51 caratteri) con alta entropia (4.368) e pochissime vocali, tipico dell’uso di TXT per trasportare payload codificati. Queste caratteristiche corrispondono al pattern di tunneling / data exfiltration.  
+
+CLASSE: 1"
