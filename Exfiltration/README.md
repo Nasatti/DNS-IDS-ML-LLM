@@ -26,4 +26,3 @@ Questo script agisce come l'infrastruttura dell'attaccante (il server ricevente)
 
 Di seguito è mostrato il risultato finale dell'esecuzione del decoder (salvato nel file `risultato.png`). L'immagine dimostra l'avvenuta ricostruzione e decodifica del file esfiltrato, confermando il successo dell'attacco di DNS Tunneling simulato:
 
-![Messaggio Decodificato](risultato.png)
