@@ -29,7 +29,8 @@ Una sezione dedicata alla dimostrazione pratica dell'esfiltrazione dati (Data Ex
 *   **`Server-Ubuntu/`**: Il decoder lato C2 che estrae il payload dai log di rete, gestisce il padding matematico della codifica Base32 e ricostruisce la stringa originale.
 
 ## ⚙️ Requisiti e Setup
-*L'ambiente richiede Docker, Zeek e un'istanza locale di Ollama. (Istruzioni di setup dettagliate da inserire qui).*
+Per l'ambiente Server è richiesto Docker e i conteiner specifici, nella VM servirà il tool [Network Flight Simulator](https://github.com/alphasoc/flightsim), per la parte di ML è stato utilizzato Jupyter, infine per LLM è necessaria un'istanza locale di Ollama. 
+*Più informazioni verranno date nelle specifiche cartelle.*
 
 ## ⚠️ Disclaimer
 Questo progetto è stato sviluppato esclusivamente per scopi accademici e di ricerca nell'ambito della sicurezza informatica. I file di configurazione e di esfiltrazione sono proof-of-concept progettati per operare in ambienti controllati.
